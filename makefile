@@ -2,9 +2,9 @@ CC=nvcc
 CFLAGS=-lm --std=c++14 -arch sm_61 -I /usr/include/c++/10 -I/home2/cuda/Common
 PROGRAM=cudaHisto
 
-SOURCES=main.cu
+SOURCES=main.cu chrono.c
 OBJECTS=$(SOURCES:.cu=.o)
-SEND_FILES=$(SOURCES) Makefile
+SEND_FILES=$(SOURCES) makefile
 
 ARGS_N=100000
 ARGS_H=1024
@@ -20,7 +20,7 @@ KEY_PATH=~/.ssh/nv00_rsa
 NV_KEY=$(if $(KEY_PATH),-i $(KEY_PATH), )
 
 DISTDIR=20206150
-DISTFILES=$(SOURCES) Makefile
+DISTFILES=$(SOURCES) makefile
 
 # Local targets -----------
 
