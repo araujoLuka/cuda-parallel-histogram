@@ -1,1 +1,1 @@
-# KNN CUDA
+# CUDA Parallel version for histogram
