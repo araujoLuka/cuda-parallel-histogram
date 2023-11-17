@@ -6,9 +6,9 @@ SOURCES=main.cu chrono.c
 OBJECTS=$(SOURCES:.cu=.o)
 SEND_FILES=$(SOURCES) makefile
 
-ARGS_N=100000
-ARGS_H=1024
-ARGS_NR=1
+ARGS_N=16000000
+ARGS_H=2048
+ARGS_NR=10
 
 NV_IP=200.238.130.80
 NV_PORT=4450
@@ -87,7 +87,8 @@ nv-test: nv-send
 
 nv-run:
 	@test $(NV_USERNAME) || (echo "Missing remote username." ; echo "Run 'export NV_USERNAME=your_username' in order to make remotely." ; exit 1)
-	@echo "Running $(PROGRAM) on $(NV_USERNAME)@$(NV_IP):$(NV_PORT)..."
+	@echo "Running on $(NV_USERNAME)@$(NV_IP):$(NV_PORT)..."
+	@echo "> Command: $(NV_COMMAND)"
 	@ssh $(NV_KEY) -qt $(NV_USERNAME)@$(NV_IP) -p $(NV_PORT) "cd $(NV_DIR) && $(NV_COMMAND)"
 
 nv-clean:
