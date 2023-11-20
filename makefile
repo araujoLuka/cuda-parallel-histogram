@@ -91,6 +91,9 @@ nv-run:
 	@echo "> Command: $(NV_COMMAND)"
 	@ssh $(NV_KEY) -qt $(NV_USERNAME)@$(NV_IP) -p $(NV_PORT) "cd $(NV_DIR) && $(NV_COMMAND)"
 
+nv-script:
+	@ssh $(NV_KEY) -qt $(NV_USERNAME)@$(NV_IP) -p $(NV_PORT) "cd $(NV_DIR) && $(NV_COMMAND)"
+
 nv-clean:
 	@test $(NV_USERNAME) || (echo "Missing remote username." ; echo "Run 'export NV_USERNAME=your_username' in order to make remotely." ; exit 1)
 	@ssh $(NV_KEY) $(NV_USERNAME)@$(NV_IP) -p $(NV_PORT) "rm -rf $(NV_DIR)"

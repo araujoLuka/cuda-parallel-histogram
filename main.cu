@@ -12,9 +12,6 @@
 constexpr static uint8_t MP = 28;
 constexpr static uint16_t MAX_THREADS_PER_BLOCK = 1024;
 constexpr static uint32_t MAX_SHARED_MEM_PER_BLOCK = 49152;
-constexpr static uint32_t MAX_SHARED_MEM_PER_MP = 98304;
-// Adjustable parameters
-constexpr static uint16_t THREADS_PER_BLOCK = 1024;
 constexpr static uint32_t H_MAX = MAX_SHARED_MEM_PER_BLOCK / 8;
 // Other constants
 constexpr static uint8_t MAX_PRINT = 10;
@@ -25,7 +22,7 @@ __host__ __device__ constexpr float LARGURA_FAIXA(float nMin, float nMax,
 }
 
 __global__ void blockHisto(unsigned int *HH, const int h, const float *Input,
-                           const int nTotalElements, const float nMin,
+                           const uint64_t nTotalElements, const float nMin,
                            const float nMax) {
     //   cada bloco de threads deve ter um histograma local
     __shared__ unsigned int histoPrivate[H_MAX];
@@ -69,7 +66,7 @@ __global__ void blockHisto(unsigned int *HH, const int h, const float *Input,
 }
 
 __global__ void globalHisto(unsigned int *H, const int h, const float *Input,
-                            const int nTotalElements, const float nMin,
+                            const uint64_t nTotalElements, const float nMin,
                             const float nMax) {
     //   cada bloco de threads deve ter um histograma local
     __shared__ unsigned int histoPrivate[H_MAX];
@@ -100,7 +97,7 @@ __global__ void globalHisto(unsigned int *H, const int h, const float *Input,
     }
 }
 
-__host__ unsigned int *serialHisto(const float *Input, const int nTotalElements,
+__host__ unsigned int *serialHisto(const float *Input, const uint64_t nTotalElements,
                                    const float nMin, const float nMax,
                                    const int h) {
     unsigned int *H{new unsigned int[h]};
@@ -115,7 +112,7 @@ __host__ unsigned int *serialHisto(const float *Input, const int nTotalElements,
 #ifdef DEBUG
     // debug print
     for (int i{0}; i < 5; ++i) {
-        std::cout << "DEBUG: H[" << i << "]: " << H[i] << std::endl;
+        std::cout << "DEBUG: H[" << i << "]: " << H[i] << "\n";
     }
 #endif
 
@@ -212,19 +209,20 @@ __global__ void validaResultados(const unsigned int *const H,
 }
 
 int main(int argc, char **argv) {
-    int nTotalElements;  // tamanho do vetor de entrada
-    int h;               // numero de faixas do histograma
-    int nR;              // numero de repeticoes do kernel
+    uint64_t nTotalElements;    // tamanho do vetor de entrada
+    int h;                  // numero de faixas do histograma
+    int nR;                 // numero de repeticoes do kernel
     chronometer_t chrono;
+    double vazao; // para medir a vazao em MFLOPS
 
     if (argc != 4) {
         std::cout << "Usage: " << argv[0] << " <nTotalElements> <h> <nR>"
-                  << std::endl;
+                  << "\n";
         return -1;
     }
 
 #ifdef DEBUG
-    std::cout << "DEBUG: Tratando argumentos..." << std::endl;
+    std::cout << "DEBUG: Tratando argumentos...\n";
 #endif
 
     nTotalElements = atoi(argv[1]);
@@ -232,11 +230,11 @@ int main(int argc, char **argv) {
     nR = atoi(argv[3]);
 
 #ifdef DEBUG
-    std::cout << "nTotalElements: " << nTotalElements << std::endl;
-    std::cout << "h: " << h << std::endl;
-    // std::cout << "nR: " << nR << std::endl;
+    std::cout << "nTotalElements: " << nTotalElements << "\n";
+    std::cout << "h: " << h << "\n";
+    // std::cout << "nR: " << nR << "\n";
 
-    std::cout << "\nDEBUG: Gerando dados de entrada..." << std::endl;
+    std::cout << "\nDEBUG: Gerando dados de entrada...\n";
 #endif
 
     float *Input{new float[nTotalElements]};
@@ -262,10 +260,10 @@ int main(int argc, char **argv) {
     }
 
 #ifdef DEBUG
-    std::cout << "> nMin: " << nMin << std::endl;
-    std::cout << "> nMax: " << nMax << std::endl;
+    std::cout << "> nMin: " << nMin << "\n";
+    std::cout << "> nMax: " << nMax << "\n";
 
-    std::cout << "\nDEBUG: Alocando memoria no device..." << std::endl;
+    std::cout << "\nDEBUG: Alocando memoria no device...\n";
 #endif
 
     unsigned int *OutputBH;  // matriz de saida do kernel blockHisto
@@ -278,7 +276,7 @@ int main(int argc, char **argv) {
 
 #ifdef DEBUG
     std::cout << "\nDEBUG: Configurando numero de blocos e threads por bloco..."
-              << std::endl;
+              << "\n";
 #endif
     if (nTotalElements < MAX_THREADS_PER_BLOCK) {
         nt = nTotalElements;
@@ -289,10 +287,10 @@ int main(int argc, char **argv) {
     }
 
 #ifdef DEBUG
-    std::cout << "> nt: " << nt << std::endl;
-    std::cout << "> nb: " << nb << std::endl;
+    std::cout << "> nt: " << nt << "\n";
+    std::cout << "> nb: " << nb << "\n";
 
-    std::cout << "\nDEBUG: Alocando memoria no device..." << std::endl;
+    std::cout << "\nDEBUG: Alocando memoria no device...\n";
 #endif
     // aloca matriz de saida para o kernel blockHisto (um histograma por linha)
     // - h colunas
@@ -302,12 +300,12 @@ int main(int argc, char **argv) {
     if (err != cudaSuccess) {
 #ifdef DEBUG
         std::cout << "DEBUG: Erro alocando memoria para OutputBH: "
-                  << cudaGetErrorString(err) << std::endl;
+                  << cudaGetErrorString(err) << "\n";
 #endif
         return 1;
     }
 #ifdef DEBUG
-    std::cout << "> OutputBH alocado!" << std::endl;
+    std::cout << "> OutputBH alocado!\n";
 #endif
 
     // aloca vetor de saida para o kernel globalHisto (apenas um histograma)
@@ -316,13 +314,13 @@ int main(int argc, char **argv) {
     if (err != cudaSuccess) {
 #ifdef DEBUG
         std::cout << "DEBUG: Erro alocando memoria para OutputGH: "
-                  << cudaGetErrorString(err) << std::endl;
+                  << cudaGetErrorString(err) << "\n";
 #endif
         cudaFree(OutputBH);
         return 1;
     }
 #ifdef DEBUG
-    std::cout << "> OutputGH alocado!" << std::endl;
+    std::cout << "> OutputGH alocado!\n";
 #endif
 
     // aloca vetor de saida para a versao serial (apenas um histograma)
@@ -331,14 +329,14 @@ int main(int argc, char **argv) {
     if (err != cudaSuccess) {
 #ifdef DEBUG
         std::cout << "DEBUG: Erro alocando memoria para OutputSH: "
-                  << cudaGetErrorString(err) << std::endl;
+                  << cudaGetErrorString(err) << "\n";
 #endif
         cudaFree(OutputBH);
         cudaFree(OutputGH);
         return 1;
     }
 #ifdef DEBUG
-    std::cout << "> OutputSH alocado!" << std::endl;
+    std::cout << "> OutputSH alocado!\n";
 #endif
 
     // aloca vetor de entrada no device
@@ -347,7 +345,7 @@ int main(int argc, char **argv) {
     if (err != cudaSuccess) {
 #ifdef DEBUG
         std::cout << "DEBUG: Erro alocando memoria para d_Input: "
-                  << cudaGetErrorString(err) << std::endl;
+                  << cudaGetErrorString(err) << "\n";
 #endif
         cudaFree(OutputBH);
         cudaFree(OutputGH);
@@ -355,18 +353,18 @@ int main(int argc, char **argv) {
         return 1;
     }
 #ifdef DEBUG
-    std::cout << "> d_Input alocado!" << std::endl;
+    std::cout << "> d_Input alocado!\n";
 #endif
 
 #ifdef DEBUG
-    std::cout << "\nDEBUG: Copiando Input para o device..." << std::endl;
+    std::cout << "\nDEBUG: Copiando Input para o device...\n";
 #endif
     err = cudaMemcpy(d_Input, Input, nTotalElements * sizeof(float),
                      cudaMemcpyHostToDevice);
     if (err != cudaSuccess) {
 #ifdef DEBUG
         std::cout << "DEBUG: Erro copiando dados de Input para d_Input: "
-                  << cudaGetErrorString(err) << std::endl;
+                  << cudaGetErrorString(err) << "\n";
 #endif
         cudaFree(OutputBH);
         cudaFree(OutputGH);
@@ -375,7 +373,7 @@ int main(int argc, char **argv) {
         return 2;
     }
 #ifdef DEBUG
-    std::cout << "> Input copiado!" << std::endl;
+    std::cout << "> Input copiado!\n";
 #endif
 
     chrono_reset(&chrono);
@@ -383,7 +381,7 @@ int main(int argc, char **argv) {
 
 // executa o kernel blockHisto
 #ifdef DEBUG
-    std::cout << "\nDEBUG: Executando kernel blockHisto..." << std::endl;
+    std::cout << "\nDEBUG: Executando kernel blockHisto...\n";
 #endif
     for (int i{0}; i < nR; ++i) {
         cudaMemset(OutputBH, 0, nb * h * sizeof(unsigned int));
@@ -393,7 +391,7 @@ int main(int argc, char **argv) {
         if (err != cudaSuccess) {
 #ifdef DEBUG
             std::cout << "DEBUG: Erro executando blockHisto: "
-                      << cudaGetErrorString(err) << std::endl;
+                      << cudaGetErrorString(err) << "\n";
 #endif
             cudaFree(OutputBH);
             cudaFree(OutputGH);
@@ -405,15 +403,17 @@ int main(int argc, char **argv) {
 
     cudaDeviceSynchronize();
     chrono_stop(&chrono);
-    chrono_reportTime(&chrono, "BlockHisto");
-    chrono_report_TimeInLoop(&chrono, "BlockHistoInLoop", nR);
+    chrono_report_TimeInLoop(&chrono, "BlockHisto", nR);
+        // ==> each op takes 15085 ns
+    vazao = (nTotalElements * nR) / 1e6 / (chrono.xtotal_ns / 1e9);
+    std::cout << "        ==> throughput: " << vazao << " MFLOP/s\n";
 
     chrono_reset(&chrono);
     chrono_start(&chrono);
 
 // executa o kernel globalHisto
 #ifdef DEBUG
-    std::cout << "\nDEBUG: Executando kernel globalHisto..." << std::endl;
+    std::cout << "\nDEBUG: Executando kernel globalHisto...\n";
 #endif
     for (int i{0}; i < nR; ++i) {
         cudaMemset(OutputGH, 0, h * sizeof(unsigned int));
@@ -423,7 +423,7 @@ int main(int argc, char **argv) {
         if (err != cudaSuccess) {
 #ifdef DEBUG
             std::cout << "DEBUG: Erro executando globalHisto: "
-                      << cudaGetErrorString(err) << std::endl;
+                      << cudaGetErrorString(err) << "\n";
 #endif
             cudaFree(OutputBH);
             cudaFree(OutputGH);
@@ -435,8 +435,9 @@ int main(int argc, char **argv) {
 
     cudaDeviceSynchronize();
     chrono_stop(&chrono);
-    chrono_reportTime(&chrono, "GlobalHisto");
-    chrono_report_TimeInLoop(&chrono, "GlobalHistoInLoop", nR);
+    chrono_report_TimeInLoop(&chrono, "GlobalHisto", nR);
+    vazao = (nTotalElements * nR) / 1e6 / (chrono.xtotal_ns / 1e9);
+    std::cout << "        ==> throughput: " << vazao << " MFLOP/s\n";
 
     unsigned int *S;
 
@@ -445,7 +446,7 @@ int main(int argc, char **argv) {
 
 // executa a versão serial
 #ifdef DEBUG
-    std::cout << "\nDEBUG: Executando versão serial..." << std::endl;
+    std::cout << "\nDEBUG: Executando versão serial...\n";
 #endif
     for (int i{0}; i < nR; ++i) {
         S = serialHisto(Input, nTotalElements, nMin, nMax, h);
@@ -453,19 +454,20 @@ int main(int argc, char **argv) {
     }
 
     chrono_stop(&chrono);
-    chrono_reportTime(&chrono, "SerialHisto");
-    chrono_report_TimeInLoop(&chrono, "SerialHistoInLoop", nR);
+    chrono_report_TimeInLoop(&chrono, "SerialHisto", nR);
+    vazao = (nTotalElements * nR) / 1e6 / (chrono.xtotal_ns / 1e9);
+    std::cout << "        ==> throughput: " << vazao << " MFLOP/s\n";
 
 #ifdef DEBUG
     std::cout << "\nDEBUG: Copiando dados da versão serial para OutputSH..."
-              << std::endl;
+              << "\n";
 #endif
     err = cudaMemcpy(OutputSH, S, h * sizeof(unsigned int),
                      cudaMemcpyHostToDevice);
     if (err != cudaSuccess) {
 #ifdef DEBUG
         std::cout << "DEBUG: Erro copiando dados de S para OutputSH: "
-                  << cudaGetErrorString(err) << std::endl;
+                  << cudaGetErrorString(err) << "\n";
 #endif
         cudaFree(OutputBH);
         cudaFree(OutputGH);
@@ -474,12 +476,12 @@ int main(int argc, char **argv) {
         return 2;
     }
 #ifdef DEBUG
-    std::cout << "> Dados copiados!" << std::endl;
+    std::cout << "> Dados copiados!\n";
 #endif
 
 // valida os resultados
 #ifdef VALIDAR
-    std::cout << "\nDEBUG: Validando resultados..." << std::endl;
+    std::cout << "\nDEBUG: Validando resultados...\n";
 
     // printa o input
     std::cout << "Input: ";
@@ -495,7 +497,7 @@ int main(int argc, char **argv) {
     if (err != cudaSuccess) {
 #ifdef DEBUG
         std::cout << "DEBUG: Erro executando validaResultados: "
-                  << cudaGetErrorString(err) << std::endl;
+                  << cudaGetErrorString(err) << "\n";
 #endif
         cudaFree(OutputBH);
         cudaFree(OutputGH);
