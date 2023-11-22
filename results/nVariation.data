@@ -1,0 +1,2576 @@
+n=10 h=2048 nr=20
+> Intervalo dos valores de entrada: [3.17124e+10, 2.06457e+11]
+> Largura da faixa: 8.53247e+07
+
+BlockHisto deltaT(ns): 1506678 ns for 20 ops 
+        ==> each op takes 75333 ns
+        ==> throughput: 0.132742 MFLOP/s
+
+GlobalHisto deltaT(ns): 236837 ns for 20 ops 
+        ==> each op takes 11841 ns
+        ==> throughput: 0.844463 MFLOP/s
+
+SerialHisto deltaT(ns): 124755 ns for 20 ops 
+        ==> each op takes 6237 ns
+        ==> throughput: 1.60314 MFLOP/s
+---
+n=20 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.02212e+09, 2.14986e+11]
+> Largura da faixa: 1.0301e+08
+
+BlockHisto deltaT(ns): 826332 ns for 20 ops 
+        ==> each op takes 41316 ns
+        ==> throughput: 0.484067 MFLOP/s
+
+GlobalHisto deltaT(ns): 200985 ns for 20 ops 
+        ==> each op takes 10049 ns
+        ==> throughput: 1.9902 MFLOP/s
+
+SerialHisto deltaT(ns): 137228 ns for 20 ops 
+        ==> each op takes 6861 ns
+        ==> throughput: 2.91486 MFLOP/s
+---
+n=30 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.02212e+09, 2.14986e+11]
+> Largura da faixa: 1.0301e+08
+
+BlockHisto deltaT(ns): 821625 ns for 20 ops 
+        ==> each op takes 41081 ns
+        ==> throughput: 0.73026 MFLOP/s
+
+GlobalHisto deltaT(ns): 120517 ns for 20 ops 
+        ==> each op takes 6025 ns
+        ==> throughput: 4.97855 MFLOP/s
+
+SerialHisto deltaT(ns): 127906 ns for 20 ops 
+        ==> each op takes 6395 ns
+        ==> throughput: 4.69094 MFLOP/s
+---
+n=40 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.02212e+09, 2.14986e+11]
+> Largura da faixa: 1.0301e+08
+
+BlockHisto deltaT(ns): 821093 ns for 20 ops 
+        ==> each op takes 41054 ns
+        ==> throughput: 0.974311 MFLOP/s
+
+GlobalHisto deltaT(ns): 112743 ns for 20 ops 
+        ==> each op takes 5637 ns
+        ==> throughput: 7.09578 MFLOP/s
+
+SerialHisto deltaT(ns): 127372 ns for 20 ops 
+        ==> each op takes 6368 ns
+        ==> throughput: 6.28082 MFLOP/s
+---
+n=50 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.02212e+09, 2.14986e+11]
+> Largura da faixa: 1.0301e+08
+
+BlockHisto deltaT(ns): 824229 ns for 20 ops 
+        ==> each op takes 41211 ns
+        ==> throughput: 1.21326 MFLOP/s
+
+GlobalHisto deltaT(ns): 147520 ns for 20 ops 
+        ==> each op takes 7376 ns
+        ==> throughput: 6.77874 MFLOP/s
+
+SerialHisto deltaT(ns): 141982 ns for 20 ops 
+        ==> each op takes 7099 ns
+        ==> throughput: 7.04315 MFLOP/s
+---
+n=60 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.02212e+09, 2.14986e+11]
+> Largura da faixa: 1.0301e+08
+
+BlockHisto deltaT(ns): 692834 ns for 20 ops 
+        ==> each op takes 34641 ns
+        ==> throughput: 1.73202 MFLOP/s
+
+GlobalHisto deltaT(ns): 113181 ns for 20 ops 
+        ==> each op takes 5659 ns
+        ==> throughput: 10.6025 MFLOP/s
+
+SerialHisto deltaT(ns): 145415 ns for 20 ops 
+        ==> each op takes 7270 ns
+        ==> throughput: 8.25224 MFLOP/s
+---
+n=70 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.02212e+09, 2.14986e+11]
+> Largura da faixa: 1.0301e+08
+
+BlockHisto deltaT(ns): 820965 ns for 20 ops 
+        ==> each op takes 41048 ns
+        ==> throughput: 1.70531 MFLOP/s
+
+GlobalHisto deltaT(ns): 125003 ns for 20 ops 
+        ==> each op takes 6250 ns
+        ==> throughput: 11.1997 MFLOP/s
+
+SerialHisto deltaT(ns): 139177 ns for 20 ops 
+        ==> each op takes 6958 ns
+        ==> throughput: 10.0591 MFLOP/s
+---
+n=80 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.02212e+09, 2.14986e+11]
+> Largura da faixa: 1.0301e+08
+
+BlockHisto deltaT(ns): 824741 ns for 20 ops 
+        ==> each op takes 41237 ns
+        ==> throughput: 1.94 MFLOP/s
+
+GlobalHisto deltaT(ns): 112241 ns for 20 ops 
+        ==> each op takes 5612 ns
+        ==> throughput: 14.255 MFLOP/s
+
+SerialHisto deltaT(ns): 133969 ns for 20 ops 
+        ==> each op takes 6698 ns
+        ==> throughput: 11.9431 MFLOP/s
+---
+n=90 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.87597e+09, 2.15186e+11]
+> Largura da faixa: 1.03667e+08
+
+BlockHisto deltaT(ns): 820369 ns for 20 ops 
+        ==> each op takes 41018 ns
+        ==> throughput: 2.19413 MFLOP/s
+
+GlobalHisto deltaT(ns): 112685 ns for 20 ops 
+        ==> each op takes 5634 ns
+        ==> throughput: 15.9737 MFLOP/s
+
+SerialHisto deltaT(ns): 133103 ns for 20 ops 
+        ==> each op takes 6655 ns
+        ==> throughput: 13.5234 MFLOP/s
+---
+n=100 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.87597e+09, 2.15186e+11]
+> Largura da faixa: 1.03667e+08
+
+BlockHisto deltaT(ns): 826191 ns for 20 ops 
+        ==> each op takes 41309 ns
+        ==> throughput: 2.42075 MFLOP/s
+
+GlobalHisto deltaT(ns): 112984 ns for 20 ops 
+        ==> each op takes 5649 ns
+        ==> throughput: 17.7016 MFLOP/s
+
+SerialHisto deltaT(ns): 132451 ns for 20 ops 
+        ==> each op takes 6622 ns
+        ==> throughput: 15.0999 MFLOP/s
+---
+n=120 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.87597e+09, 2.15186e+11]
+> Largura da faixa: 1.03667e+08
+
+BlockHisto deltaT(ns): 822731 ns for 20 ops 
+        ==> each op takes 41136 ns
+        ==> throughput: 2.91711 MFLOP/s
+
+GlobalHisto deltaT(ns): 111567 ns for 20 ops 
+        ==> each op takes 5578 ns
+        ==> throughput: 21.5117 MFLOP/s
+
+SerialHisto deltaT(ns): 134435 ns for 20 ops 
+        ==> each op takes 6721 ns
+        ==> throughput: 17.8525 MFLOP/s
+---
+n=140 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.87597e+09, 2.15186e+11]
+> Largura da faixa: 1.03667e+08
+
+BlockHisto deltaT(ns): 820610 ns for 20 ops 
+        ==> each op takes 41030 ns
+        ==> throughput: 3.4121 MFLOP/s
+
+GlobalHisto deltaT(ns): 112869 ns for 20 ops 
+        ==> each op takes 5643 ns
+        ==> throughput: 24.8075 MFLOP/s
+
+SerialHisto deltaT(ns): 143801 ns for 20 ops 
+        ==> each op takes 7190 ns
+        ==> throughput: 19.4714 MFLOP/s
+---
+n=160 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.87597e+09, 2.15186e+11]
+> Largura da faixa: 1.03667e+08
+
+BlockHisto deltaT(ns): 821014 ns for 20 ops 
+        ==> each op takes 41050 ns
+        ==> throughput: 3.89762 MFLOP/s
+
+GlobalHisto deltaT(ns): 123640 ns for 20 ops 
+        ==> each op takes 6182 ns
+        ==> throughput: 25.8816 MFLOP/s
+
+SerialHisto deltaT(ns): 168454 ns for 20 ops 
+        ==> each op takes 8422 ns
+        ==> throughput: 18.9963 MFLOP/s
+---
+n=180 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.87597e+09, 2.15186e+11]
+> Largura da faixa: 1.03667e+08
+
+BlockHisto deltaT(ns): 820410 ns for 20 ops 
+        ==> each op takes 41020 ns
+        ==> throughput: 4.38805 MFLOP/s
+
+GlobalHisto deltaT(ns): 113613 ns for 20 ops 
+        ==> each op takes 5680 ns
+        ==> throughput: 31.6865 MFLOP/s
+
+SerialHisto deltaT(ns): 147526 ns for 20 ops 
+        ==> each op takes 7376 ns
+        ==> throughput: 24.4025 MFLOP/s
+---
+n=200 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.87597e+09, 2.15186e+11]
+> Largura da faixa: 1.03667e+08
+
+BlockHisto deltaT(ns): 822725 ns for 20 ops 
+        ==> each op takes 41136 ns
+        ==> throughput: 4.86189 MFLOP/s
+
+GlobalHisto deltaT(ns): 111672 ns for 20 ops 
+        ==> each op takes 5583 ns
+        ==> throughput: 35.8192 MFLOP/s
+
+SerialHisto deltaT(ns): 163726 ns for 20 ops 
+        ==> each op takes 8186 ns
+        ==> throughput: 24.4311 MFLOP/s
+---
+n=220 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.87597e+09, 2.15186e+11]
+> Largura da faixa: 1.03667e+08
+
+BlockHisto deltaT(ns): 828201 ns for 20 ops 
+        ==> each op takes 41410 ns
+        ==> throughput: 5.31272 MFLOP/s
+
+GlobalHisto deltaT(ns): 114587 ns for 20 ops 
+        ==> each op takes 5729 ns
+        ==> throughput: 38.3988 MFLOP/s
+
+SerialHisto deltaT(ns): 152723 ns for 20 ops 
+        ==> each op takes 7636 ns
+        ==> throughput: 28.8103 MFLOP/s
+---
+n=240 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.87597e+09, 2.15186e+11]
+> Largura da faixa: 1.03667e+08
+
+BlockHisto deltaT(ns): 822306 ns for 20 ops 
+        ==> each op takes 41115 ns
+        ==> throughput: 5.83724 MFLOP/s
+
+GlobalHisto deltaT(ns): 113167 ns for 20 ops 
+        ==> each op takes 5658 ns
+        ==> throughput: 42.4152 MFLOP/s
+
+SerialHisto deltaT(ns): 162485 ns for 20 ops 
+        ==> each op takes 8124 ns
+        ==> throughput: 29.5412 MFLOP/s
+---
+n=260 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.15186e+11]
+> Largura da faixa: 1.04947e+08
+
+BlockHisto deltaT(ns): 824607 ns for 20 ops 
+        ==> each op takes 41230 ns
+        ==> throughput: 6.30603 MFLOP/s
+
+GlobalHisto deltaT(ns): 111773 ns for 20 ops 
+        ==> each op takes 5588 ns
+        ==> throughput: 46.5229 MFLOP/s
+
+SerialHisto deltaT(ns): 172034 ns for 20 ops 
+        ==> each op takes 8601 ns
+        ==> throughput: 30.2266 MFLOP/s
+---
+n=280 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.15186e+11]
+> Largura da faixa: 1.04947e+08
+
+BlockHisto deltaT(ns): 826232 ns for 20 ops 
+        ==> each op takes 41311 ns
+        ==> throughput: 6.77776 MFLOP/s
+
+GlobalHisto deltaT(ns): 123003 ns for 20 ops 
+        ==> each op takes 6150 ns
+        ==> throughput: 45.5273 MFLOP/s
+
+SerialHisto deltaT(ns): 204554 ns for 20 ops 
+        ==> each op takes 10227 ns
+        ==> throughput: 27.3766 MFLOP/s
+---
+n=300 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.15186e+11]
+> Largura da faixa: 1.04947e+08
+
+BlockHisto deltaT(ns): 826755 ns for 20 ops 
+        ==> each op takes 41337 ns
+        ==> throughput: 7.25729 MFLOP/s
+
+GlobalHisto deltaT(ns): 112327 ns for 20 ops 
+        ==> each op takes 5616 ns
+        ==> throughput: 53.4155 MFLOP/s
+
+SerialHisto deltaT(ns): 168023 ns for 20 ops 
+        ==> each op takes 8401 ns
+        ==> throughput: 35.7094 MFLOP/s
+---
+n=350 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.15186e+11]
+> Largura da faixa: 1.04947e+08
+
+BlockHisto deltaT(ns): 821041 ns for 20 ops 
+        ==> each op takes 41052 ns
+        ==> throughput: 8.52576 MFLOP/s
+
+GlobalHisto deltaT(ns): 112090 ns for 20 ops 
+        ==> each op takes 5604 ns
+        ==> throughput: 62.4498 MFLOP/s
+
+SerialHisto deltaT(ns): 176606 ns for 20 ops 
+        ==> each op takes 8830 ns
+        ==> throughput: 39.6363 MFLOP/s
+---
+n=400 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.15186e+11]
+> Largura da faixa: 1.04947e+08
+
+BlockHisto deltaT(ns): 829962 ns for 20 ops 
+        ==> each op takes 41498 ns
+        ==> throughput: 9.639 MFLOP/s
+
+GlobalHisto deltaT(ns): 114623 ns for 20 ops 
+        ==> each op takes 5731 ns
+        ==> throughput: 69.794 MFLOP/s
+
+SerialHisto deltaT(ns): 206369 ns for 20 ops 
+        ==> each op takes 10318 ns
+        ==> throughput: 38.7655 MFLOP/s
+---
+n=450 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.15186e+11]
+> Largura da faixa: 1.04947e+08
+
+BlockHisto deltaT(ns): 828333 ns for 20 ops 
+        ==> each op takes 41416 ns
+        ==> throughput: 10.8652 MFLOP/s
+
+GlobalHisto deltaT(ns): 125524 ns for 20 ops 
+        ==> each op takes 6276 ns
+        ==> throughput: 71.6994 MFLOP/s
+
+SerialHisto deltaT(ns): 255901 ns for 20 ops 
+        ==> each op takes 12795 ns
+        ==> throughput: 35.1699 MFLOP/s
+---
+n=500 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.15186e+11]
+> Largura da faixa: 1.04947e+08
+
+BlockHisto deltaT(ns): 826614 ns for 20 ops 
+        ==> each op takes 41330 ns
+        ==> throughput: 12.0975 MFLOP/s
+
+GlobalHisto deltaT(ns): 114103 ns for 20 ops 
+        ==> each op takes 5705 ns
+        ==> throughput: 87.6401 MFLOP/s
+
+SerialHisto deltaT(ns): 211795 ns for 20 ops 
+        ==> each op takes 10589 ns
+        ==> throughput: 47.2155 MFLOP/s
+---
+n=600 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.15186e+11]
+> Largura da faixa: 1.04947e+08
+
+BlockHisto deltaT(ns): 820814 ns for 20 ops 
+        ==> each op takes 41040 ns
+        ==> throughput: 14.6196 MFLOP/s
+
+GlobalHisto deltaT(ns): 113337 ns for 20 ops 
+        ==> each op takes 5666 ns
+        ==> throughput: 105.879 MFLOP/s
+
+SerialHisto deltaT(ns): 220282 ns for 20 ops 
+        ==> each op takes 11014 ns
+        ==> throughput: 54.4756 MFLOP/s
+---
+n=700 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.15186e+11]
+> Largura da faixa: 1.04947e+08
+
+BlockHisto deltaT(ns): 820078 ns for 20 ops 
+        ==> each op takes 41003 ns
+        ==> throughput: 17.0715 MFLOP/s
+
+GlobalHisto deltaT(ns): 122067 ns for 20 ops 
+        ==> each op takes 6103 ns
+        ==> throughput: 114.691 MFLOP/s
+
+SerialHisto deltaT(ns): 332324 ns for 20 ops 
+        ==> each op takes 16616 ns
+        ==> throughput: 42.1276 MFLOP/s
+---
+n=800 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16209e+11]
+> Largura da faixa: 1.05447e+08
+
+BlockHisto deltaT(ns): 826584 ns for 20 ops 
+        ==> each op takes 41329 ns
+        ==> throughput: 19.3568 MFLOP/s
+
+GlobalHisto deltaT(ns): 112050 ns for 20 ops 
+        ==> each op takes 5602 ns
+        ==> throughput: 142.793 MFLOP/s
+
+SerialHisto deltaT(ns): 270318 ns for 20 ops 
+        ==> each op takes 13515 ns
+        ==> throughput: 59.1895 MFLOP/s
+---
+n=900 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16209e+11]
+> Largura da faixa: 1.05447e+08
+
+BlockHisto deltaT(ns): 923838 ns for 20 ops 
+        ==> each op takes 46191 ns
+        ==> throughput: 19.4839 MFLOP/s
+
+GlobalHisto deltaT(ns): 164896 ns for 20 ops 
+        ==> each op takes 8244 ns
+        ==> throughput: 109.16 MFLOP/s
+
+SerialHisto deltaT(ns): 302532 ns for 20 ops 
+        ==> each op takes 15126 ns
+        ==> throughput: 59.4978 MFLOP/s
+---
+n=1000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16209e+11]
+> Largura da faixa: 1.05447e+08
+
+BlockHisto deltaT(ns): 826604 ns for 20 ops 
+        ==> each op takes 41330 ns
+        ==> throughput: 24.1954 MFLOP/s
+
+GlobalHisto deltaT(ns): 124192 ns for 20 ops 
+        ==> each op takes 6209 ns
+        ==> throughput: 161.041 MFLOP/s
+
+SerialHisto deltaT(ns): 320996 ns for 20 ops 
+        ==> each op takes 16049 ns
+        ==> throughput: 62.3061 MFLOP/s
+---
+n=1024 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16209e+11]
+> Largura da faixa: 1.05447e+08
+
+BlockHisto deltaT(ns): 688953 ns for 20 ops 
+        ==> each op takes 34447 ns
+        ==> throughput: 29.7263 MFLOP/s
+
+GlobalHisto deltaT(ns): 218467 ns for 20 ops 
+        ==> each op takes 10923 ns
+        ==> throughput: 93.7441 MFLOP/s
+
+SerialHisto deltaT(ns): 306187 ns for 20 ops 
+        ==> each op takes 15309 ns
+        ==> throughput: 66.8872 MFLOP/s
+---
+n=1100 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16209e+11]
+> Largura da faixa: 1.05447e+08
+
+BlockHisto deltaT(ns): 689071 ns for 20 ops 
+        ==> each op takes 34453 ns
+        ==> throughput: 31.927 MFLOP/s
+
+GlobalHisto deltaT(ns): 217047 ns for 20 ops 
+        ==> each op takes 10852 ns
+        ==> throughput: 101.361 MFLOP/s
+
+SerialHisto deltaT(ns): 338762 ns for 20 ops 
+        ==> each op takes 16938 ns
+        ==> throughput: 64.9423 MFLOP/s
+---
+n=1200 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16209e+11]
+> Largura da faixa: 1.05447e+08
+
+BlockHisto deltaT(ns): 690434 ns for 20 ops 
+        ==> each op takes 34521 ns
+        ==> throughput: 34.7607 MFLOP/s
+
+GlobalHisto deltaT(ns): 222409 ns for 20 ops 
+        ==> each op takes 11120 ns
+        ==> throughput: 107.909 MFLOP/s
+
+SerialHisto deltaT(ns): 333689 ns for 20 ops 
+        ==> each op takes 16684 ns
+        ==> throughput: 71.9233 MFLOP/s
+---
+n=1300 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16209e+11]
+> Largura da faixa: 1.05447e+08
+
+BlockHisto deltaT(ns): 689433 ns for 20 ops 
+        ==> each op takes 34471 ns
+        ==> throughput: 37.7121 MFLOP/s
+
+GlobalHisto deltaT(ns): 221400 ns for 20 ops 
+        ==> each op takes 11070 ns
+        ==> throughput: 117.435 MFLOP/s
+
+SerialHisto deltaT(ns): 428188 ns for 20 ops 
+        ==> each op takes 21409 ns
+        ==> throughput: 60.721 MFLOP/s
+---
+n=1400 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 692235 ns for 20 ops 
+        ==> each op takes 34611 ns
+        ==> throughput: 40.4487 MFLOP/s
+
+GlobalHisto deltaT(ns): 224568 ns for 20 ops 
+        ==> each op takes 11228 ns
+        ==> throughput: 124.684 MFLOP/s
+
+SerialHisto deltaT(ns): 374905 ns for 20 ops 
+        ==> each op takes 18745 ns
+        ==> throughput: 74.6856 MFLOP/s
+---
+n=1500 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 689369 ns for 20 ops 
+        ==> each op takes 34468 ns
+        ==> throughput: 43.5181 MFLOP/s
+
+GlobalHisto deltaT(ns): 220378 ns for 20 ops 
+        ==> each op takes 11018 ns
+        ==> throughput: 136.13 MFLOP/s
+
+SerialHisto deltaT(ns): 377287 ns for 20 ops 
+        ==> each op takes 18864 ns
+        ==> throughput: 79.5151 MFLOP/s
+---
+n=1600 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 690369 ns for 20 ops 
+        ==> each op takes 34518 ns
+        ==> throughput: 46.352 MFLOP/s
+
+GlobalHisto deltaT(ns): 216762 ns for 20 ops 
+        ==> each op takes 10838 ns
+        ==> throughput: 147.627 MFLOP/s
+
+SerialHisto deltaT(ns): 403561 ns for 20 ops 
+        ==> each op takes 20178 ns
+        ==> throughput: 79.2941 MFLOP/s
+---
+n=1700 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 691545 ns for 20 ops 
+        ==> each op takes 34577 ns
+        ==> throughput: 49.1653 MFLOP/s
+
+GlobalHisto deltaT(ns): 217686 ns for 20 ops 
+        ==> each op takes 10884 ns
+        ==> throughput: 156.188 MFLOP/s
+
+SerialHisto deltaT(ns): 420783 ns for 20 ops 
+        ==> each op takes 21039 ns
+        ==> throughput: 80.8017 MFLOP/s
+---
+n=1800 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 689154 ns for 20 ops 
+        ==> each op takes 34457 ns
+        ==> throughput: 52.238 MFLOP/s
+
+GlobalHisto deltaT(ns): 220866 ns for 20 ops 
+        ==> each op takes 11043 ns
+        ==> throughput: 162.995 MFLOP/s
+
+SerialHisto deltaT(ns): 450123 ns for 20 ops 
+        ==> each op takes 22506 ns
+        ==> throughput: 79.9781 MFLOP/s
+---
+n=1900 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 690799 ns for 20 ops 
+        ==> each op takes 34539 ns
+        ==> throughput: 55.0088 MFLOP/s
+
+GlobalHisto deltaT(ns): 221053 ns for 20 ops 
+        ==> each op takes 11052 ns
+        ==> throughput: 171.904 MFLOP/s
+
+SerialHisto deltaT(ns): 448747 ns for 20 ops 
+        ==> each op takes 22437 ns
+        ==> throughput: 84.6802 MFLOP/s
+---
+n=2000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 691684 ns for 20 ops 
+        ==> each op takes 34584 ns
+        ==> throughput: 57.8299 MFLOP/s
+
+GlobalHisto deltaT(ns): 220822 ns for 20 ops 
+        ==> each op takes 11041 ns
+        ==> throughput: 181.141 MFLOP/s
+
+SerialHisto deltaT(ns): 483047 ns for 20 ops 
+        ==> each op takes 24152 ns
+        ==> throughput: 82.8077 MFLOP/s
+---
+n=2250 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 693296 ns for 20 ops 
+        ==> each op takes 34664 ns
+        ==> throughput: 64.9073 MFLOP/s
+
+GlobalHisto deltaT(ns): 220442 ns for 20 ops 
+        ==> each op takes 11022 ns
+        ==> throughput: 204.135 MFLOP/s
+
+SerialHisto deltaT(ns): 532979 ns for 20 ops 
+        ==> each op takes 26648 ns
+        ==> throughput: 84.4311 MFLOP/s
+---
+n=2500 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 693637 ns for 20 ops 
+        ==> each op takes 34681 ns
+        ==> throughput: 72.0838 MFLOP/s
+
+GlobalHisto deltaT(ns): 222557 ns for 20 ops 
+        ==> each op takes 11127 ns
+        ==> throughput: 224.662 MFLOP/s
+
+SerialHisto deltaT(ns): 803931 ns for 20 ops 
+        ==> each op takes 40196 ns
+        ==> throughput: 62.1944 MFLOP/s
+---
+n=2750 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 691731 ns for 20 ops 
+        ==> each op takes 34586 ns
+        ==> throughput: 79.5107 MFLOP/s
+
+GlobalHisto deltaT(ns): 221064 ns for 20 ops 
+        ==> each op takes 11053 ns
+        ==> throughput: 248.797 MFLOP/s
+
+SerialHisto deltaT(ns): 619683 ns for 20 ops 
+        ==> each op takes 30984 ns
+        ==> throughput: 88.7551 MFLOP/s
+---
+n=3000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 689958 ns for 20 ops 
+        ==> each op takes 34497 ns
+        ==> throughput: 86.9618 MFLOP/s
+
+GlobalHisto deltaT(ns): 205851 ns for 20 ops 
+        ==> each op takes 10292 ns
+        ==> throughput: 291.473 MFLOP/s
+
+SerialHisto deltaT(ns): 652080 ns for 20 ops 
+        ==> each op takes 32604 ns
+        ==> throughput: 92.0132 MFLOP/s
+---
+n=3250 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 695678 ns for 20 ops 
+        ==> each op takes 34783 ns
+        ==> throughput: 93.434 MFLOP/s
+
+GlobalHisto deltaT(ns): 220725 ns for 20 ops 
+        ==> each op takes 11036 ns
+        ==> throughput: 294.484 MFLOP/s
+
+SerialHisto deltaT(ns): 1132013 ns for 20 ops 
+        ==> each op takes 56600 ns
+        ==> throughput: 57.4198 MFLOP/s
+---
+n=3500 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 694091 ns for 20 ops 
+        ==> each op takes 34704 ns
+        ==> throughput: 100.851 MFLOP/s
+
+GlobalHisto deltaT(ns): 215681 ns for 20 ops 
+        ==> each op takes 10784 ns
+        ==> throughput: 324.553 MFLOP/s
+
+SerialHisto deltaT(ns): 1067998 ns for 20 ops 
+        ==> each op takes 53399 ns
+        ==> throughput: 65.5432 MFLOP/s
+---
+n=3750 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 695458 ns for 20 ops 
+        ==> each op takes 34772 ns
+        ==> throughput: 107.843 MFLOP/s
+
+GlobalHisto deltaT(ns): 201740 ns for 20 ops 
+        ==> each op takes 10087 ns
+        ==> throughput: 371.766 MFLOP/s
+
+SerialHisto deltaT(ns): 818453 ns for 20 ops 
+        ==> each op takes 40922 ns
+        ==> throughput: 91.6363 MFLOP/s
+---
+n=4000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 692328 ns for 20 ops 
+        ==> each op takes 34616 ns
+        ==> throughput: 115.552 MFLOP/s
+
+GlobalHisto deltaT(ns): 221099 ns for 20 ops 
+        ==> each op takes 11054 ns
+        ==> throughput: 361.829 MFLOP/s
+
+SerialHisto deltaT(ns): 833736 ns for 20 ops 
+        ==> each op takes 41686 ns
+        ==> throughput: 95.9536 MFLOP/s
+---
+n=4250 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 690521 ns for 20 ops 
+        ==> each op takes 34526 ns
+        ==> throughput: 123.095 MFLOP/s
+
+GlobalHisto deltaT(ns): 221336 ns for 20 ops 
+        ==> each op takes 11066 ns
+        ==> throughput: 384.032 MFLOP/s
+
+SerialHisto deltaT(ns): 894488 ns for 20 ops 
+        ==> each op takes 44724 ns
+        ==> throughput: 95.0264 MFLOP/s
+---
+n=4500 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 693159 ns for 20 ops 
+        ==> each op takes 34657 ns
+        ==> throughput: 129.84 MFLOP/s
+
+GlobalHisto deltaT(ns): 213291 ns for 20 ops 
+        ==> each op takes 10664 ns
+        ==> throughput: 421.959 MFLOP/s
+
+SerialHisto deltaT(ns): 941944 ns for 20 ops 
+        ==> each op takes 47097 ns
+        ==> throughput: 95.5471 MFLOP/s
+---
+n=4750 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 695864 ns for 20 ops 
+        ==> each op takes 34793 ns
+        ==> throughput: 136.521 MFLOP/s
+
+GlobalHisto deltaT(ns): 223793 ns for 20 ops 
+        ==> each op takes 11189 ns
+        ==> throughput: 424.499 MFLOP/s
+
+SerialHisto deltaT(ns): 1393342 ns for 20 ops 
+        ==> each op takes 69667 ns
+        ==> throughput: 68.1814 MFLOP/s
+---
+n=5000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 696470 ns for 20 ops 
+        ==> each op takes 34823 ns
+        ==> throughput: 143.581 MFLOP/s
+
+GlobalHisto deltaT(ns): 217625 ns for 20 ops 
+        ==> each op takes 10881 ns
+        ==> throughput: 459.506 MFLOP/s
+
+SerialHisto deltaT(ns): 1008352 ns for 20 ops 
+        ==> each op takes 50417 ns
+        ==> throughput: 99.1717 MFLOP/s
+---
+n=5500 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 693370 ns for 20 ops 
+        ==> each op takes 34668 ns
+        ==> throughput: 158.645 MFLOP/s
+
+GlobalHisto deltaT(ns): 217918 ns for 20 ops 
+        ==> each op takes 10895 ns
+        ==> throughput: 504.777 MFLOP/s
+
+SerialHisto deltaT(ns): 1103809 ns for 20 ops 
+        ==> each op takes 55190 ns
+        ==> throughput: 99.6549 MFLOP/s
+---
+n=6000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 694493 ns for 20 ops 
+        ==> each op takes 34724 ns
+        ==> throughput: 172.788 MFLOP/s
+
+GlobalHisto deltaT(ns): 219938 ns for 20 ops 
+        ==> each op takes 10996 ns
+        ==> throughput: 545.608 MFLOP/s
+
+SerialHisto deltaT(ns): 1244717 ns for 20 ops 
+        ==> each op takes 62235 ns
+        ==> throughput: 96.4075 MFLOP/s
+---
+n=6500 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 693808 ns for 20 ops 
+        ==> each op takes 34690 ns
+        ==> throughput: 187.372 MFLOP/s
+
+GlobalHisto deltaT(ns): 223685 ns for 20 ops 
+        ==> each op takes 11184 ns
+        ==> throughput: 581.174 MFLOP/s
+
+SerialHisto deltaT(ns): 2065065 ns for 20 ops 
+        ==> each op takes 103253 ns
+        ==> throughput: 62.952 MFLOP/s
+---
+n=7000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 694956 ns for 20 ops 
+        ==> each op takes 34747 ns
+        ==> throughput: 201.452 MFLOP/s
+
+GlobalHisto deltaT(ns): 209377 ns for 20 ops 
+        ==> each op takes 10468 ns
+        ==> throughput: 668.65 MFLOP/s
+
+SerialHisto deltaT(ns): 2451663 ns for 20 ops 
+        ==> each op takes 122583 ns
+        ==> throughput: 57.1041 MFLOP/s
+---
+n=7500 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 699051 ns for 20 ops 
+        ==> each op takes 34952 ns
+        ==> throughput: 214.577 MFLOP/s
+
+GlobalHisto deltaT(ns): 217698 ns for 20 ops 
+        ==> each op takes 10884 ns
+        ==> throughput: 689.028 MFLOP/s
+
+SerialHisto deltaT(ns): 1562179 ns for 20 ops 
+        ==> each op takes 78108 ns
+        ==> throughput: 96.0197 MFLOP/s
+---
+n=8000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.53955e+08, 2.16785e+11]
+> Largura da faixa: 1.05728e+08
+
+BlockHisto deltaT(ns): 695227 ns for 20 ops 
+        ==> each op takes 34761 ns
+        ==> throughput: 230.141 MFLOP/s
+
+GlobalHisto deltaT(ns): 207088 ns for 20 ops 
+        ==> each op takes 10354 ns
+        ==> throughput: 772.618 MFLOP/s
+
+SerialHisto deltaT(ns): 1562420 ns for 20 ops 
+        ==> each op takes 78121 ns
+        ==> throughput: 102.405 MFLOP/s
+---
+n=8500 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 698276 ns for 20 ops 
+        ==> each op takes 34913 ns
+        ==> throughput: 243.457 MFLOP/s
+
+GlobalHisto deltaT(ns): 218000 ns for 20 ops 
+        ==> each op takes 10900 ns
+        ==> throughput: 779.817 MFLOP/s
+
+SerialHisto deltaT(ns): 1667734 ns for 20 ops 
+        ==> each op takes 83386 ns
+        ==> throughput: 101.935 MFLOP/s
+---
+n=9000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 698444 ns for 20 ops 
+        ==> each op takes 34922 ns
+        ==> throughput: 257.716 MFLOP/s
+
+GlobalHisto deltaT(ns): 221185 ns for 20 ops 
+        ==> each op takes 11059 ns
+        ==> throughput: 813.798 MFLOP/s
+
+SerialHisto deltaT(ns): 1820108 ns for 20 ops 
+        ==> each op takes 91005 ns
+        ==> throughput: 98.8952 MFLOP/s
+---
+n=9500 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 697656 ns for 20 ops 
+        ==> each op takes 34882 ns
+        ==> throughput: 272.341 MFLOP/s
+
+GlobalHisto deltaT(ns): 219412 ns for 20 ops 
+        ==> each op takes 10970 ns
+        ==> throughput: 865.951 MFLOP/s
+
+SerialHisto deltaT(ns): 1907941 ns for 20 ops 
+        ==> each op takes 95397 ns
+        ==> throughput: 99.5838 MFLOP/s
+---
+n=10000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 752705 ns for 20 ops 
+        ==> each op takes 37635 ns
+        ==> throughput: 265.708 MFLOP/s
+
+GlobalHisto deltaT(ns): 221871 ns for 20 ops 
+        ==> each op takes 11093 ns
+        ==> throughput: 901.425 MFLOP/s
+
+SerialHisto deltaT(ns): 1923783 ns for 20 ops 
+        ==> each op takes 96189 ns
+        ==> throughput: 103.962 MFLOP/s
+---
+n=11000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 698017 ns for 20 ops 
+        ==> each op takes 34900 ns
+        ==> throughput: 315.179 MFLOP/s
+
+GlobalHisto deltaT(ns): 225013 ns for 20 ops 
+        ==> each op takes 11250 ns
+        ==> throughput: 977.721 MFLOP/s
+
+SerialHisto deltaT(ns): 2531993 ns for 20 ops 
+        ==> each op takes 126599 ns
+        ==> throughput: 86.8881 MFLOP/s
+---
+n=12000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 703700 ns for 20 ops 
+        ==> each op takes 35185 ns
+        ==> throughput: 341.054 MFLOP/s
+
+GlobalHisto deltaT(ns): 220198 ns for 20 ops 
+        ==> each op takes 11009 ns
+        ==> throughput: 1089.93 MFLOP/s
+
+SerialHisto deltaT(ns): 2241273 ns for 20 ops 
+        ==> each op takes 112063 ns
+        ==> throughput: 107.082 MFLOP/s
+---
+n=13000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 698434 ns for 20 ops 
+        ==> each op takes 34921 ns
+        ==> throughput: 372.261 MFLOP/s
+
+GlobalHisto deltaT(ns): 218906 ns for 20 ops 
+        ==> each op takes 10945 ns
+        ==> throughput: 1187.72 MFLOP/s
+
+SerialHisto deltaT(ns): 2439869 ns for 20 ops 
+        ==> each op takes 121993 ns
+        ==> throughput: 106.563 MFLOP/s
+---
+n=14000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 698549 ns for 20 ops 
+        ==> each op takes 34927 ns
+        ==> throughput: 400.831 MFLOP/s
+
+GlobalHisto deltaT(ns): 194422 ns for 20 ops 
+        ==> each op takes 9721 ns
+        ==> throughput: 1440.17 MFLOP/s
+
+SerialHisto deltaT(ns): 2678245 ns for 20 ops 
+        ==> each op takes 133912 ns
+        ==> throughput: 104.546 MFLOP/s
+---
+n=15000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 701176 ns for 20 ops 
+        ==> each op takes 35058 ns
+        ==> throughput: 427.853 MFLOP/s
+
+GlobalHisto deltaT(ns): 221731 ns for 20 ops 
+        ==> each op takes 11086 ns
+        ==> throughput: 1352.99 MFLOP/s
+
+SerialHisto deltaT(ns): 2842439 ns for 20 ops 
+        ==> each op takes 142121 ns
+        ==> throughput: 105.543 MFLOP/s
+---
+n=16000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 704515 ns for 20 ops 
+        ==> each op takes 35225 ns
+        ==> throughput: 454.213 MFLOP/s
+
+GlobalHisto deltaT(ns): 217333 ns for 20 ops 
+        ==> each op takes 10866 ns
+        ==> throughput: 1472.39 MFLOP/s
+
+SerialHisto deltaT(ns): 2908570 ns for 20 ops 
+        ==> each op takes 145428 ns
+        ==> throughput: 110.02 MFLOP/s
+---
+n=17000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 704232 ns for 20 ops 
+        ==> each op takes 35211 ns
+        ==> throughput: 482.795 MFLOP/s
+
+GlobalHisto deltaT(ns): 215194 ns for 20 ops 
+        ==> each op takes 10759 ns
+        ==> throughput: 1579.97 MFLOP/s
+
+SerialHisto deltaT(ns): 3186521 ns for 20 ops 
+        ==> each op takes 159326 ns
+        ==> throughput: 106.699 MFLOP/s
+---
+n=18000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 706403 ns for 20 ops 
+        ==> each op takes 35320 ns
+        ==> throughput: 509.624 MFLOP/s
+
+GlobalHisto deltaT(ns): 226812 ns for 20 ops 
+        ==> each op takes 11340 ns
+        ==> throughput: 1587.22 MFLOP/s
+
+SerialHisto deltaT(ns): 3312855 ns for 20 ops 
+        ==> each op takes 165642 ns
+        ==> throughput: 108.668 MFLOP/s
+---
+n=19000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 704306 ns for 20 ops 
+        ==> each op takes 35215 ns
+        ==> throughput: 539.538 MFLOP/s
+
+GlobalHisto deltaT(ns): 216017 ns for 20 ops 
+        ==> each op takes 10800 ns
+        ==> throughput: 1759.12 MFLOP/s
+
+SerialHisto deltaT(ns): 3546256 ns for 20 ops 
+        ==> each op takes 177312 ns
+        ==> throughput: 107.155 MFLOP/s
+---
+n=20000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 706537 ns for 20 ops 
+        ==> each op takes 35326 ns
+        ==> throughput: 566.142 MFLOP/s
+
+GlobalHisto deltaT(ns): 219125 ns for 20 ops 
+        ==> each op takes 10956 ns
+        ==> throughput: 1825.44 MFLOP/s
+
+SerialHisto deltaT(ns): 3791764 ns for 20 ops 
+        ==> each op takes 189588 ns
+        ==> throughput: 105.492 MFLOP/s
+---
+n=21000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 705119 ns for 20 ops 
+        ==> each op takes 35255 ns
+        ==> throughput: 595.644 MFLOP/s
+
+GlobalHisto deltaT(ns): 216593 ns for 20 ops 
+        ==> each op takes 10829 ns
+        ==> throughput: 1939.12 MFLOP/s
+
+SerialHisto deltaT(ns): 3970634 ns for 20 ops 
+        ==> each op takes 198531 ns
+        ==> throughput: 105.777 MFLOP/s
+---
+n=22000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 709825 ns for 20 ops 
+        ==> each op takes 35491 ns
+        ==> throughput: 619.871 MFLOP/s
+
+GlobalHisto deltaT(ns): 191883 ns for 20 ops 
+        ==> each op takes 9594 ns
+        ==> throughput: 2293.06 MFLOP/s
+
+SerialHisto deltaT(ns): 4146243 ns for 20 ops 
+        ==> each op takes 207312 ns
+        ==> throughput: 106.12 MFLOP/s
+---
+n=23000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 708360 ns for 20 ops 
+        ==> each op takes 35418 ns
+        ==> throughput: 649.387 MFLOP/s
+
+GlobalHisto deltaT(ns): 208721 ns for 20 ops 
+        ==> each op takes 10436 ns
+        ==> throughput: 2203.9 MFLOP/s
+
+SerialHisto deltaT(ns): 4340788 ns for 20 ops 
+        ==> each op takes 217039 ns
+        ==> throughput: 105.972 MFLOP/s
+---
+n=24000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 708700 ns for 20 ops 
+        ==> each op takes 35435 ns
+        ==> throughput: 677.296 MFLOP/s
+
+GlobalHisto deltaT(ns): 204965 ns for 20 ops 
+        ==> each op takes 10248 ns
+        ==> throughput: 2341.86 MFLOP/s
+
+SerialHisto deltaT(ns): 4522230 ns for 20 ops 
+        ==> each op takes 226111 ns
+        ==> throughput: 106.142 MFLOP/s
+---
+n=25000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 707302 ns for 20 ops 
+        ==> each op takes 35365 ns
+        ==> throughput: 706.912 MFLOP/s
+
+GlobalHisto deltaT(ns): 212493 ns for 20 ops 
+        ==> each op takes 10624 ns
+        ==> throughput: 2353.02 MFLOP/s
+
+SerialHisto deltaT(ns): 6613412 ns for 20 ops 
+        ==> each op takes 330670 ns
+        ==> throughput: 75.6039 MFLOP/s
+---
+n=26000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 710213 ns for 20 ops 
+        ==> each op takes 35510 ns
+        ==> throughput: 732.175 MFLOP/s
+
+GlobalHisto deltaT(ns): 225398 ns for 20 ops 
+        ==> each op takes 11269 ns
+        ==> throughput: 2307.03 MFLOP/s
+
+SerialHisto deltaT(ns): 4759837 ns for 20 ops 
+        ==> each op takes 237991 ns
+        ==> throughput: 109.247 MFLOP/s
+---
+n=27000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 712660 ns for 20 ops 
+        ==> each op takes 35633 ns
+        ==> throughput: 757.725 MFLOP/s
+
+GlobalHisto deltaT(ns): 219699 ns for 20 ops 
+        ==> each op takes 10984 ns
+        ==> throughput: 2457.91 MFLOP/s
+
+SerialHisto deltaT(ns): 5581017 ns for 20 ops 
+        ==> each op takes 279050 ns
+        ==> throughput: 96.7566 MFLOP/s
+---
+n=28000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 710013 ns for 20 ops 
+        ==> each op takes 35500 ns
+        ==> throughput: 788.718 MFLOP/s
+
+GlobalHisto deltaT(ns): 221663 ns for 20 ops 
+        ==> each op takes 11083 ns
+        ==> throughput: 2526.36 MFLOP/s
+
+SerialHisto deltaT(ns): 5462420 ns for 20 ops 
+        ==> each op takes 273121 ns
+        ==> throughput: 102.519 MFLOP/s
+---
+n=29000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 709820 ns for 20 ops 
+        ==> each op takes 35491 ns
+        ==> throughput: 817.109 MFLOP/s
+
+GlobalHisto deltaT(ns): 229053 ns for 20 ops 
+        ==> each op takes 11452 ns
+        ==> throughput: 2532.17 MFLOP/s
+
+SerialHisto deltaT(ns): 6862476 ns for 20 ops 
+        ==> each op takes 343123 ns
+        ==> throughput: 84.5176 MFLOP/s
+---
+n=30000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 714221 ns for 20 ops 
+        ==> each op takes 35711 ns
+        ==> throughput: 840.076 MFLOP/s
+
+GlobalHisto deltaT(ns): 217767 ns for 20 ops 
+        ==> each op takes 10888 ns
+        ==> throughput: 2755.24 MFLOP/s
+
+SerialHisto deltaT(ns): 5441765 ns for 20 ops 
+        ==> each op takes 272088 ns
+        ==> throughput: 110.258 MFLOP/s
+---
+n=31000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 713515 ns for 20 ops 
+        ==> each op takes 35675 ns
+        ==> throughput: 868.938 MFLOP/s
+
+GlobalHisto deltaT(ns): 219238 ns for 20 ops 
+        ==> each op takes 10961 ns
+        ==> throughput: 2827.98 MFLOP/s
+
+SerialHisto deltaT(ns): 6684791 ns for 20 ops 
+        ==> each op takes 334239 ns
+        ==> throughput: 92.7479 MFLOP/s
+---
+n=32000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 716693 ns for 20 ops 
+        ==> each op takes 35834 ns
+        ==> throughput: 892.99 MFLOP/s
+
+GlobalHisto deltaT(ns): 213546 ns for 20 ops 
+        ==> each op takes 10677 ns
+        ==> throughput: 2997.01 MFLOP/s
+
+SerialHisto deltaT(ns): 6002637 ns for 20 ops 
+        ==> each op takes 300131 ns
+        ==> throughput: 106.62 MFLOP/s
+---
+n=33000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 718497 ns for 20 ops 
+        ==> each op takes 35924 ns
+        ==> throughput: 918.584 MFLOP/s
+
+GlobalHisto deltaT(ns): 272044 ns for 20 ops 
+        ==> each op takes 13602 ns
+        ==> throughput: 2426.08 MFLOP/s
+
+SerialHisto deltaT(ns): 6337826 ns for 20 ops 
+        ==> each op takes 316891 ns
+        ==> throughput: 104.137 MFLOP/s
+---
+n=34000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 716710 ns for 20 ops 
+        ==> each op takes 35835 ns
+        ==> throughput: 948.78 MFLOP/s
+
+GlobalHisto deltaT(ns): 219340 ns for 20 ops 
+        ==> each op takes 10967 ns
+        ==> throughput: 3100.21 MFLOP/s
+
+SerialHisto deltaT(ns): 6458521 ns for 20 ops 
+        ==> each op takes 322926 ns
+        ==> throughput: 105.287 MFLOP/s
+---
+n=35000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 721784 ns for 20 ops 
+        ==> each op takes 36089 ns
+        ==> throughput: 969.819 MFLOP/s
+
+GlobalHisto deltaT(ns): 205555 ns for 20 ops 
+        ==> each op takes 10277 ns
+        ==> throughput: 3405.41 MFLOP/s
+
+SerialHisto deltaT(ns): 7103416 ns for 20 ops 
+        ==> each op takes 355170 ns
+        ==> throughput: 98.5441 MFLOP/s
+---
+n=36000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 729666 ns for 20 ops 
+        ==> each op takes 36483 ns
+        ==> throughput: 986.753 MFLOP/s
+
+GlobalHisto deltaT(ns): 205192 ns for 20 ops 
+        ==> each op takes 10259 ns
+        ==> throughput: 3508.91 MFLOP/s
+
+SerialHisto deltaT(ns): 6800756 ns for 20 ops 
+        ==> each op takes 340037 ns
+        ==> throughput: 105.871 MFLOP/s
+---
+n=37000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 720109 ns for 20 ops 
+        ==> each op takes 36005 ns
+        ==> throughput: 1027.62 MFLOP/s
+
+GlobalHisto deltaT(ns): 215572 ns for 20 ops 
+        ==> each op takes 10778 ns
+        ==> throughput: 3432.73 MFLOP/s
+
+SerialHisto deltaT(ns): 7047532 ns for 20 ops 
+        ==> each op takes 352376 ns
+        ==> throughput: 105.001 MFLOP/s
+---
+n=38000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 722217 ns for 20 ops 
+        ==> each op takes 36110 ns
+        ==> throughput: 1052.32 MFLOP/s
+
+GlobalHisto deltaT(ns): 220749 ns for 20 ops 
+        ==> each op takes 11037 ns
+        ==> throughput: 3442.82 MFLOP/s
+
+SerialHisto deltaT(ns): 7101525 ns for 20 ops 
+        ==> each op takes 355076 ns
+        ==> throughput: 107.019 MFLOP/s
+---
+n=39000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 724514 ns for 20 ops 
+        ==> each op takes 36225 ns
+        ==> throughput: 1076.58 MFLOP/s
+
+GlobalHisto deltaT(ns): 201071 ns for 20 ops 
+        ==> each op takes 10053 ns
+        ==> throughput: 3879.23 MFLOP/s
+
+SerialHisto deltaT(ns): 7386725 ns for 20 ops 
+        ==> each op takes 369336 ns
+        ==> throughput: 105.595 MFLOP/s
+---
+n=40000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 722557 ns for 20 ops 
+        ==> each op takes 36127 ns
+        ==> throughput: 1107.18 MFLOP/s
+
+GlobalHisto deltaT(ns): 226054 ns for 20 ops 
+        ==> each op takes 11302 ns
+        ==> throughput: 3538.98 MFLOP/s
+
+SerialHisto deltaT(ns): 12980303 ns for 20 ops 
+        ==> each op takes 649015 ns
+        ==> throughput: 61.6318 MFLOP/s
+---
+n=41000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 726536 ns for 20 ops 
+        ==> each op takes 36326 ns
+        ==> throughput: 1128.64 MFLOP/s
+
+GlobalHisto deltaT(ns): 217222 ns for 20 ops 
+        ==> each op takes 10861 ns
+        ==> throughput: 3774.94 MFLOP/s
+
+SerialHisto deltaT(ns): 7887052 ns for 20 ops 
+        ==> each op takes 394352 ns
+        ==> throughput: 103.968 MFLOP/s
+---
+n=42000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 724387 ns for 20 ops 
+        ==> each op takes 36219 ns
+        ==> throughput: 1159.6 MFLOP/s
+
+GlobalHisto deltaT(ns): 222130 ns for 20 ops 
+        ==> each op takes 11106 ns
+        ==> throughput: 3781.57 MFLOP/s
+
+SerialHisto deltaT(ns): 11639059 ns for 20 ops 
+        ==> each op takes 581952 ns
+        ==> throughput: 72.1708 MFLOP/s
+---
+n=43000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 723290 ns for 20 ops 
+        ==> each op takes 36164 ns
+        ==> throughput: 1189.01 MFLOP/s
+
+GlobalHisto deltaT(ns): 219722 ns for 20 ops 
+        ==> each op takes 10986 ns
+        ==> throughput: 3914.04 MFLOP/s
+
+SerialHisto deltaT(ns): 7948707 ns for 20 ops 
+        ==> each op takes 397435 ns
+        ==> throughput: 108.194 MFLOP/s
+---
+n=44000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 725432 ns for 20 ops 
+        ==> each op takes 36271 ns
+        ==> throughput: 1213.07 MFLOP/s
+
+GlobalHisto deltaT(ns): 223060 ns for 20 ops 
+        ==> each op takes 11153 ns
+        ==> throughput: 3945.13 MFLOP/s
+
+SerialHisto deltaT(ns): 7965115 ns for 20 ops 
+        ==> each op takes 398255 ns
+        ==> throughput: 110.482 MFLOP/s
+---
+n=45000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 724664 ns for 20 ops 
+        ==> each op takes 36233 ns
+        ==> throughput: 1241.95 MFLOP/s
+
+GlobalHisto deltaT(ns): 224450 ns for 20 ops 
+        ==> each op takes 11222 ns
+        ==> throughput: 4009.8 MFLOP/s
+
+SerialHisto deltaT(ns): 8201970 ns for 20 ops 
+        ==> each op takes 410098 ns
+        ==> throughput: 109.73 MFLOP/s
+---
+n=46000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 727527 ns for 20 ops 
+        ==> each op takes 36376 ns
+        ==> throughput: 1264.56 MFLOP/s
+
+GlobalHisto deltaT(ns): 192281 ns for 20 ops 
+        ==> each op takes 9614 ns
+        ==> throughput: 4784.66 MFLOP/s
+
+SerialHisto deltaT(ns): 8406000 ns for 20 ops 
+        ==> each op takes 420300 ns
+        ==> throughput: 109.446 MFLOP/s
+---
+n=47000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 735292 ns for 20 ops 
+        ==> each op takes 36764 ns
+        ==> throughput: 1278.4 MFLOP/s
+
+GlobalHisto deltaT(ns): 219519 ns for 20 ops 
+        ==> each op takes 10975 ns
+        ==> throughput: 4282.09 MFLOP/s
+
+SerialHisto deltaT(ns): 8521000 ns for 20 ops 
+        ==> each op takes 426050 ns
+        ==> throughput: 110.316 MFLOP/s
+---
+n=48000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 727375 ns for 20 ops 
+        ==> each op takes 36368 ns
+        ==> throughput: 1319.81 MFLOP/s
+
+GlobalHisto deltaT(ns): 221792 ns for 20 ops 
+        ==> each op takes 11089 ns
+        ==> throughput: 4328.38 MFLOP/s
+
+SerialHisto deltaT(ns): 8738033 ns for 20 ops 
+        ==> each op takes 436901 ns
+        ==> throughput: 109.865 MFLOP/s
+---
+n=49000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 728008 ns for 20 ops 
+        ==> each op takes 36400 ns
+        ==> throughput: 1346.14 MFLOP/s
+
+GlobalHisto deltaT(ns): 216983 ns for 20 ops 
+        ==> each op takes 10849 ns
+        ==> throughput: 4516.48 MFLOP/s
+
+SerialHisto deltaT(ns): 9136909 ns for 20 ops 
+        ==> each op takes 456845 ns
+        ==> throughput: 107.257 MFLOP/s
+---
+n=50000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 728990 ns for 20 ops 
+        ==> each op takes 36449 ns
+        ==> throughput: 1371.76 MFLOP/s
+
+GlobalHisto deltaT(ns): 222846 ns for 20 ops 
+        ==> each op takes 11142 ns
+        ==> throughput: 4487.4 MFLOP/s
+
+SerialHisto deltaT(ns): 9907455 ns for 20 ops 
+        ==> each op takes 495372 ns
+        ==> throughput: 100.934 MFLOP/s
+---
+n=52000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 725716 ns for 20 ops 
+        ==> each op takes 36285 ns
+        ==> throughput: 1433.07 MFLOP/s
+
+GlobalHisto deltaT(ns): 216850 ns for 20 ops 
+        ==> each op takes 10842 ns
+        ==> throughput: 4795.94 MFLOP/s
+
+SerialHisto deltaT(ns): 14012323 ns for 20 ops 
+        ==> each op takes 700616 ns
+        ==> throughput: 74.2204 MFLOP/s
+---
+n=54000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 732940 ns for 20 ops 
+        ==> each op takes 36647 ns
+        ==> throughput: 1473.52 MFLOP/s
+
+GlobalHisto deltaT(ns): 219164 ns for 20 ops 
+        ==> each op takes 10958 ns
+        ==> throughput: 4927.82 MFLOP/s
+
+SerialHisto deltaT(ns): 13645762 ns for 20 ops 
+        ==> each op takes 682288 ns
+        ==> throughput: 79.1455 MFLOP/s
+---
+n=56000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 731649 ns for 20 ops 
+        ==> each op takes 36582 ns
+        ==> throughput: 1530.79 MFLOP/s
+
+GlobalHisto deltaT(ns): 336345 ns for 20 ops 
+        ==> each op takes 16817 ns
+        ==> throughput: 3329.91 MFLOP/s
+
+SerialHisto deltaT(ns): 14332379 ns for 20 ops 
+        ==> each op takes 716618 ns
+        ==> throughput: 78.1447 MFLOP/s
+---
+n=58000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 826562 ns for 20 ops 
+        ==> each op takes 41328 ns
+        ==> throughput: 1403.4 MFLOP/s
+
+GlobalHisto deltaT(ns): 219704 ns for 20 ops 
+        ==> each op takes 10985 ns
+        ==> throughput: 5279.83 MFLOP/s
+
+SerialHisto deltaT(ns): 15578770 ns for 20 ops 
+        ==> each op takes 778938 ns
+        ==> throughput: 74.4603 MFLOP/s
+---
+n=60000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 740014 ns for 20 ops 
+        ==> each op takes 37000 ns
+        ==> throughput: 1621.59 MFLOP/s
+
+GlobalHisto deltaT(ns): 228147 ns for 20 ops 
+        ==> each op takes 11407 ns
+        ==> throughput: 5259.77 MFLOP/s
+
+SerialHisto deltaT(ns): 13377924 ns for 20 ops 
+        ==> each op takes 668896 ns
+        ==> throughput: 89.7 MFLOP/s
+---
+n=62000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 736096 ns for 20 ops 
+        ==> each op takes 36804 ns
+        ==> throughput: 1684.56 MFLOP/s
+
+GlobalHisto deltaT(ns): 216598 ns for 20 ops 
+        ==> each op takes 10829 ns
+        ==> throughput: 5724.89 MFLOP/s
+
+SerialHisto deltaT(ns): 11199452 ns for 20 ops 
+        ==> each op takes 559972 ns
+        ==> throughput: 110.72 MFLOP/s
+---
+n=64000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 739144 ns for 20 ops 
+        ==> each op takes 36957 ns
+        ==> throughput: 1731.73 MFLOP/s
+
+GlobalHisto deltaT(ns): 217058 ns for 20 ops 
+        ==> each op takes 10852 ns
+        ==> throughput: 5897.04 MFLOP/s
+
+SerialHisto deltaT(ns): 11564637 ns for 20 ops 
+        ==> each op takes 578231 ns
+        ==> throughput: 110.682 MFLOP/s
+---
+n=66000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 738314 ns for 20 ops 
+        ==> each op takes 36915 ns
+        ==> throughput: 1787.86 MFLOP/s
+
+GlobalHisto deltaT(ns): 216601 ns for 20 ops 
+        ==> each op takes 10830 ns
+        ==> throughput: 6094.15 MFLOP/s
+
+SerialHisto deltaT(ns): 11915078 ns for 20 ops 
+        ==> each op takes 595753 ns
+        ==> throughput: 110.784 MFLOP/s
+---
+n=68000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 742823 ns for 20 ops 
+        ==> each op takes 37141 ns
+        ==> throughput: 1830.85 MFLOP/s
+
+GlobalHisto deltaT(ns): 224704 ns for 20 ops 
+        ==> each op takes 11235 ns
+        ==> throughput: 6052.41 MFLOP/s
+
+SerialHisto deltaT(ns): 12263704 ns for 20 ops 
+        ==> each op takes 613185 ns
+        ==> throughput: 110.896 MFLOP/s
+---
+n=70000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16785e+11]
+> Largura da faixa: 1.05784e+08
+
+BlockHisto deltaT(ns): 740890 ns for 20 ops 
+        ==> each op takes 37044 ns
+        ==> throughput: 1889.62 MFLOP/s
+
+GlobalHisto deltaT(ns): 243078 ns for 20 ops 
+        ==> each op takes 12153 ns
+        ==> throughput: 5759.47 MFLOP/s
+
+SerialHisto deltaT(ns): 20256266 ns for 20 ops 
+        ==> each op takes 1012813 ns
+        ==> throughput: 69.1144 MFLOP/s
+---
+n=72000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 741244 ns for 20 ops 
+        ==> each op takes 37062 ns
+        ==> throughput: 1942.68 MFLOP/s
+
+GlobalHisto deltaT(ns): 208400 ns for 20 ops 
+        ==> each op takes 10420 ns
+        ==> throughput: 6909.79 MFLOP/s
+
+SerialHisto deltaT(ns): 17541639 ns for 20 ops 
+        ==> each op takes 877081 ns
+        ==> throughput: 82.0904 MFLOP/s
+---
+n=74000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 747398 ns for 20 ops 
+        ==> each op takes 37369 ns
+        ==> throughput: 1980.2 MFLOP/s
+
+GlobalHisto deltaT(ns): 215843 ns for 20 ops 
+        ==> each op takes 10792 ns
+        ==> throughput: 6856.84 MFLOP/s
+
+SerialHisto deltaT(ns): 13551754 ns for 20 ops 
+        ==> each op takes 677587 ns
+        ==> throughput: 109.211 MFLOP/s
+---
+n=76000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 743100 ns for 20 ops 
+        ==> each op takes 37155 ns
+        ==> throughput: 2045.49 MFLOP/s
+
+GlobalHisto deltaT(ns): 217209 ns for 20 ops 
+        ==> each op takes 10860 ns
+        ==> throughput: 6997.87 MFLOP/s
+
+SerialHisto deltaT(ns): 13757894 ns for 20 ops 
+        ==> each op takes 687894 ns
+        ==> throughput: 110.482 MFLOP/s
+---
+n=78000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 745512 ns for 20 ops 
+        ==> each op takes 37275 ns
+        ==> throughput: 2092.52 MFLOP/s
+
+GlobalHisto deltaT(ns): 222456 ns for 20 ops 
+        ==> each op takes 11122 ns
+        ==> throughput: 7012.62 MFLOP/s
+
+SerialHisto deltaT(ns): 14971178 ns for 20 ops 
+        ==> each op takes 748558 ns
+        ==> throughput: 104.2 MFLOP/s
+---
+n=80000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 747198 ns for 20 ops 
+        ==> each op takes 37359 ns
+        ==> throughput: 2141.33 MFLOP/s
+
+GlobalHisto deltaT(ns): 218423 ns for 20 ops 
+        ==> each op takes 10921 ns
+        ==> throughput: 7325.24 MFLOP/s
+
+SerialHisto deltaT(ns): 14643289 ns for 20 ops 
+        ==> each op takes 732164 ns
+        ==> throughput: 109.265 MFLOP/s
+---
+n=82000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 749116 ns for 20 ops 
+        ==> each op takes 37455 ns
+        ==> throughput: 2189.25 MFLOP/s
+
+GlobalHisto deltaT(ns): 221024 ns for 20 ops 
+        ==> each op takes 11051 ns
+        ==> throughput: 7420.01 MFLOP/s
+
+SerialHisto deltaT(ns): 19212989 ns for 20 ops 
+        ==> each op takes 960649 ns
+        ==> throughput: 85.3589 MFLOP/s
+---
+n=84000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 728961 ns for 20 ops 
+        ==> each op takes 36448 ns
+        ==> throughput: 2304.65 MFLOP/s
+
+GlobalHisto deltaT(ns): 218166 ns for 20 ops 
+        ==> each op takes 10908 ns
+        ==> throughput: 7700.56 MFLOP/s
+
+SerialHisto deltaT(ns): 20883421 ns for 20 ops 
+        ==> each op takes 1044171 ns
+        ==> throughput: 80.4466 MFLOP/s
+---
+n=86000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 752429 ns for 20 ops 
+        ==> each op takes 37621 ns
+        ==> throughput: 2285.93 MFLOP/s
+
+GlobalHisto deltaT(ns): 222500 ns for 20 ops 
+        ==> each op takes 11125 ns
+        ==> throughput: 7730.34 MFLOP/s
+
+SerialHisto deltaT(ns): 19254393 ns for 20 ops 
+        ==> each op takes 962719 ns
+        ==> throughput: 89.3303 MFLOP/s
+---
+n=88000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 748211 ns for 20 ops 
+        ==> each op takes 37410 ns
+        ==> throughput: 2352.28 MFLOP/s
+
+GlobalHisto deltaT(ns): 223359 ns for 20 ops 
+        ==> each op takes 11167 ns
+        ==> throughput: 7879.69 MFLOP/s
+
+SerialHisto deltaT(ns): 15893004 ns for 20 ops 
+        ==> each op takes 794650 ns
+        ==> throughput: 110.741 MFLOP/s
+---
+n=90000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 751766 ns for 20 ops 
+        ==> each op takes 37588 ns
+        ==> throughput: 2394.36 MFLOP/s
+
+GlobalHisto deltaT(ns): 219056 ns for 20 ops 
+        ==> each op takes 10952 ns
+        ==> throughput: 8217.08 MFLOP/s
+
+SerialHisto deltaT(ns): 16581039 ns for 20 ops 
+        ==> each op takes 829051 ns
+        ==> throughput: 108.558 MFLOP/s
+---
+n=92000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 755559 ns for 20 ops 
+        ==> each op takes 37777 ns
+        ==> throughput: 2435.28 MFLOP/s
+
+GlobalHisto deltaT(ns): 230049 ns for 20 ops 
+        ==> each op takes 11502 ns
+        ==> throughput: 7998.3 MFLOP/s
+
+SerialHisto deltaT(ns): 22872393 ns for 20 ops 
+        ==> each op takes 1143619 ns
+        ==> throughput: 80.4463 MFLOP/s
+---
+n=94000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 755231 ns for 20 ops 
+        ==> each op takes 37761 ns
+        ==> throughput: 2489.3 MFLOP/s
+
+GlobalHisto deltaT(ns): 221794 ns for 20 ops 
+        ==> each op takes 11089 ns
+        ==> throughput: 8476.33 MFLOP/s
+
+SerialHisto deltaT(ns): 16921810 ns for 20 ops 
+        ==> each op takes 846090 ns
+        ==> throughput: 111.099 MFLOP/s
+---
+n=96000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 761179 ns for 20 ops 
+        ==> each op takes 38058 ns
+        ==> throughput: 2522.4 MFLOP/s
+
+GlobalHisto deltaT(ns): 221485 ns for 20 ops 
+        ==> each op takes 11074 ns
+        ==> throughput: 8668.76 MFLOP/s
+
+SerialHisto deltaT(ns): 17243019 ns for 20 ops 
+        ==> each op takes 862150 ns
+        ==> throughput: 111.349 MFLOP/s
+---
+n=98000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 756254 ns for 20 ops 
+        ==> each op takes 37812 ns
+        ==> throughput: 2591.72 MFLOP/s
+
+GlobalHisto deltaT(ns): 228173 ns for 20 ops 
+        ==> each op takes 11408 ns
+        ==> throughput: 8589.97 MFLOP/s
+
+SerialHisto deltaT(ns): 18080989 ns for 20 ops 
+        ==> each op takes 904049 ns
+        ==> throughput: 108.401 MFLOP/s
+---
+n=100000 h=2048 nr=20
+> Intervalo dos valores de entrada: [1.39852e+08, 2.16791e+11]
+> Largura da faixa: 1.05787e+08
+
+BlockHisto deltaT(ns): 764296 ns for 20 ops 
+        ==> each op takes 38214 ns
+        ==> throughput: 2616.79 MFLOP/s
+
+GlobalHisto deltaT(ns): 219940 ns for 20 ops 
+        ==> each op takes 10997 ns
+        ==> throughput: 9093.39 MFLOP/s
+
+SerialHisto deltaT(ns): 22145424 ns for 20 ops 
+        ==> each op takes 1107271 ns
+        ==> throughput: 90.3121 MFLOP/s
+---
+n=200000 h=2048 nr=20
+> Intervalo dos valores de entrada: [7.04941e+07, 2.16813e+11]
+> Largura da faixa: 1.05832e+08
+
+BlockHisto deltaT(ns): 837023 ns for 20 ops 
+        ==> each op takes 41851 ns
+        ==> throughput: 4778.84 MFLOP/s
+
+GlobalHisto deltaT(ns): 256622 ns for 20 ops 
+        ==> each op takes 12831 ns
+        ==> throughput: 15587.1 MFLOP/s
+
+SerialHisto deltaT(ns): 36091337 ns for 20 ops 
+        ==> each op takes 1804566 ns
+        ==> throughput: 110.83 MFLOP/s
+---
+n=300000 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.39775e+07, 2.16861e+11]
+> Largura da faixa: 1.05867e+08
+
+BlockHisto deltaT(ns): 858468 ns for 20 ops 
+        ==> each op takes 42923 ns
+        ==> throughput: 6989.19 MFLOP/s
+
+GlobalHisto deltaT(ns): 261039 ns for 20 ops 
+        ==> each op takes 13051 ns
+        ==> throughput: 22985.1 MFLOP/s
+
+SerialHisto deltaT(ns): 54946364 ns for 20 ops 
+        ==> each op takes 2747318 ns
+        ==> throughput: 109.197 MFLOP/s
+---
+n=400000 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.39775e+07, 2.16861e+11]
+> Largura da faixa: 1.05867e+08
+
+BlockHisto deltaT(ns): 826105 ns for 20 ops 
+        ==> each op takes 41305 ns
+        ==> throughput: 9684 MFLOP/s
+
+GlobalHisto deltaT(ns): 220489 ns for 20 ops 
+        ==> each op takes 11024 ns
+        ==> throughput: 36283 MFLOP/s
+
+SerialHisto deltaT(ns): 85265338 ns for 20 ops 
+        ==> each op takes 4263266 ns
+        ==> throughput: 93.8248 MFLOP/s
+---
+n=500000 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.39775e+07, 2.16861e+11]
+> Largura da faixa: 1.05867e+08
+
+BlockHisto deltaT(ns): 919768 ns for 20 ops 
+        ==> each op takes 45988 ns
+        ==> throughput: 10872.3 MFLOP/s
+
+GlobalHisto deltaT(ns): 275167 ns for 20 ops 
+        ==> each op takes 13758 ns
+        ==> throughput: 36341.6 MFLOP/s
+
+SerialHisto deltaT(ns): 91609580 ns for 20 ops 
+        ==> each op takes 4580479 ns
+        ==> throughput: 109.159 MFLOP/s
+---
+n=600000 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.39775e+07, 2.16887e+11]
+> Largura da faixa: 1.05881e+08
+
+BlockHisto deltaT(ns): 904745 ns for 20 ops 
+        ==> each op takes 45237 ns
+        ==> throughput: 13263.4 MFLOP/s
+
+GlobalHisto deltaT(ns): 303764 ns for 20 ops 
+        ==> each op takes 15188 ns
+        ==> throughput: 39504.4 MFLOP/s
+
+SerialHisto deltaT(ns): 118589171 ns for 20 ops 
+        ==> each op takes 5929458 ns
+        ==> throughput: 101.19 MFLOP/s
+---
+n=700000 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.39775e+07, 2.16887e+11]
+> Largura da faixa: 1.05881e+08
+
+BlockHisto deltaT(ns): 971156 ns for 20 ops 
+        ==> each op takes 48557 ns
+        ==> throughput: 14415.8 MFLOP/s
+
+GlobalHisto deltaT(ns): 401890 ns for 20 ops 
+        ==> each op takes 20094 ns
+        ==> throughput: 34835.4 MFLOP/s
+
+SerialHisto deltaT(ns): 125635232 ns for 20 ops 
+        ==> each op takes 6281761 ns
+        ==> throughput: 111.434 MFLOP/s
+---
+n=800000 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.39775e+07, 2.16887e+11]
+> Largura da faixa: 1.05881e+08
+
+BlockHisto deltaT(ns): 1046831 ns for 20 ops 
+        ==> each op takes 52341 ns
+        ==> throughput: 15284.2 MFLOP/s
+
+GlobalHisto deltaT(ns): 440923 ns for 20 ops 
+        ==> each op takes 22046 ns
+        ==> throughput: 36287.5 MFLOP/s
+
+SerialHisto deltaT(ns): 158709305 ns for 20 ops 
+        ==> each op takes 7935465 ns
+        ==> throughput: 100.813 MFLOP/s
+---
+n=900000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.9632e+07, 2.16887e+11]
+> Largura da faixa: 1.05888e+08
+
+BlockHisto deltaT(ns): 1022873 ns for 20 ops 
+        ==> each op takes 51143 ns
+        ==> throughput: 17597.5 MFLOP/s
+
+GlobalHisto deltaT(ns): 482091 ns for 20 ops 
+        ==> each op takes 24104 ns
+        ==> throughput: 37337.3 MFLOP/s
+
+SerialHisto deltaT(ns): 161221778 ns for 20 ops 
+        ==> each op takes 8061088 ns
+        ==> throughput: 111.647 MFLOP/s
+---
+n=1000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.9632e+07, 2.16887e+11]
+> Largura da faixa: 1.05888e+08
+
+BlockHisto deltaT(ns): 1084325 ns for 20 ops 
+        ==> each op takes 54216 ns
+        ==> throughput: 18444.7 MFLOP/s
+
+GlobalHisto deltaT(ns): 494114 ns for 20 ops 
+        ==> each op takes 24705 ns
+        ==> throughput: 40476.5 MFLOP/s
+
+SerialHisto deltaT(ns): 179663393 ns for 20 ops 
+        ==> each op takes 8983169 ns
+        ==> throughput: 111.319 MFLOP/s
+---
+n=1500000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.9632e+07, 2.16887e+11]
+> Largura da faixa: 1.05888e+08
+
+BlockHisto deltaT(ns): 1193522 ns for 20 ops 
+        ==> each op takes 59676 ns
+        ==> throughput: 25135.7 MFLOP/s
+
+GlobalHisto deltaT(ns): 632016 ns for 20 ops 
+        ==> each op takes 31600 ns
+        ==> throughput: 47467.2 MFLOP/s
+
+SerialHisto deltaT(ns): 266405468 ns for 20 ops 
+        ==> each op takes 13320273 ns
+        ==> throughput: 112.61 MFLOP/s
+---
+n=2000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.9632e+07, 2.16887e+11]
+> Largura da faixa: 1.05888e+08
+
+BlockHisto deltaT(ns): 1281079 ns for 20 ops 
+        ==> each op takes 64053 ns
+        ==> throughput: 31223.7 MFLOP/s
+
+GlobalHisto deltaT(ns): 727388 ns for 20 ops 
+        ==> each op takes 36369 ns
+        ==> throughput: 54991.3 MFLOP/s
+
+SerialHisto deltaT(ns): 376209661 ns for 20 ops 
+        ==> each op takes 18810483 ns
+        ==> throughput: 106.324 MFLOP/s
+---
+n=3000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.9632e+07, 2.16892e+11]
+> Largura da faixa: 1.0589e+08
+
+BlockHisto deltaT(ns): 1528382 ns for 20 ops 
+        ==> each op takes 76419 ns
+        ==> throughput: 39257.2 MFLOP/s
+
+GlobalHisto deltaT(ns): 992214 ns for 20 ops 
+        ==> each op takes 49610 ns
+        ==> throughput: 60470.8 MFLOP/s
+
+SerialHisto deltaT(ns): 542771004 ns for 20 ops 
+        ==> each op takes 27138550 ns
+        ==> throughput: 110.544 MFLOP/s
+---
+n=4000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05901e+08
+
+BlockHisto deltaT(ns): 1778592 ns for 20 ops 
+        ==> each op takes 88929 ns
+        ==> throughput: 44979.4 MFLOP/s
+
+GlobalHisto deltaT(ns): 1210081 ns for 20 ops 
+        ==> each op takes 60504 ns
+        ==> throughput: 66111.3 MFLOP/s
+
+SerialHisto deltaT(ns): 738247028 ns for 20 ops 
+        ==> each op takes 36912351 ns
+        ==> throughput: 108.365 MFLOP/s
+---
+n=5000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05901e+08
+
+BlockHisto deltaT(ns): 2034081 ns for 20 ops 
+        ==> each op takes 101704 ns
+        ==> throughput: 49162.3 MFLOP/s
+
+GlobalHisto deltaT(ns): 1460024 ns for 20 ops 
+        ==> each op takes 73001 ns
+        ==> throughput: 68492 MFLOP/s
+
+SerialHisto deltaT(ns): 980561884 ns for 20 ops 
+        ==> each op takes 49028094 ns
+        ==> throughput: 101.982 MFLOP/s
+---
+n=7500000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05901e+08
+
+BlockHisto deltaT(ns): 3205457 ns for 20 ops 
+        ==> each op takes 160272 ns
+        ==> throughput: 46795.2 MFLOP/s
+
+GlobalHisto deltaT(ns): 2242286 ns for 20 ops 
+        ==> each op takes 112114 ns
+        ==> throughput: 66896 MFLOP/s
+
+SerialHisto deltaT(ns): 1558661257 ns for 20 ops 
+        ==> each op takes 77933062 ns
+        ==> throughput: 96.2364 MFLOP/s
+---
+n=10000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05901e+08
+
+BlockHisto deltaT(ns): 3208550 ns for 20 ops 
+        ==> each op takes 160427 ns
+        ==> throughput: 62333.5 MFLOP/s
+
+GlobalHisto deltaT(ns): 2701490 ns for 20 ops 
+        ==> each op takes 135074 ns
+        ==> throughput: 74033.2 MFLOP/s
+
+SerialHisto deltaT(ns): 1815826959 ns for 20 ops 
+        ==> each op takes 90791347 ns
+        ==> throughput: 110.143 MFLOP/s
+---
+n=15000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05901e+08
+
+BlockHisto deltaT(ns): 4390806 ns for 20 ops 
+        ==> each op takes 219540 ns
+        ==> throughput: 68324.6 MFLOP/s
+
+GlobalHisto deltaT(ns): 3826092 ns for 20 ops 
+        ==> each op takes 191304 ns
+        ==> throughput: 78409 MFLOP/s
+
+SerialHisto deltaT(ns): 2708523871 ns for 20 ops 
+        ==> each op takes 135426193 ns
+        ==> throughput: 110.761 MFLOP/s
+---
+n=20000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05901e+08
+
+BlockHisto deltaT(ns): 5631626 ns for 20 ops 
+        ==> each op takes 281581 ns
+        ==> throughput: 71027.4 MFLOP/s
+
+GlobalHisto deltaT(ns): 5114037 ns for 20 ops 
+        ==> each op takes 255701 ns
+        ==> throughput: 78216.1 MFLOP/s
+
+SerialHisto deltaT(ns): 3669796579 ns for 20 ops 
+        ==> each op takes 183489828 ns
+        ==> throughput: 108.998 MFLOP/s
+---
+n=25000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 6870885 ns for 20 ops 
+        ==> each op takes 343544 ns
+        ==> throughput: 72770.8 MFLOP/s
+
+GlobalHisto deltaT(ns): 6351139 ns for 20 ops 
+        ==> each op takes 317556 ns
+        ==> throughput: 78726 MFLOP/s
+
+SerialHisto deltaT(ns): 4489893782 ns for 20 ops 
+        ==> each op takes 224494689 ns
+        ==> throughput: 111.361 MFLOP/s
+---
+n=30000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 8172736 ns for 20 ops 
+        ==> each op takes 408636 ns
+        ==> throughput: 73414.8 MFLOP/s
+
+GlobalHisto deltaT(ns): 7628058 ns for 20 ops 
+        ==> each op takes 381402 ns
+        ==> throughput: 78657 MFLOP/s
+
+SerialHisto deltaT(ns): 5405021650 ns for 20 ops 
+        ==> each op takes 270251082 ns
+        ==> throughput: 111.008 MFLOP/s
+---
+n=35000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 9468946 ns for 20 ops 
+        ==> each op takes 473447 ns
+        ==> throughput: 73925.9 MFLOP/s
+
+GlobalHisto deltaT(ns): 8904210 ns for 20 ops 
+        ==> each op takes 445210 ns
+        ==> throughput: 78614.5 MFLOP/s
+
+SerialHisto deltaT(ns): 6666362936 ns for 20 ops 
+        ==> each op takes 333318146 ns
+        ==> throughput: 105.005 MFLOP/s
+---
+n=40000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 10757997 ns for 20 ops 
+        ==> each op takes 537899 ns
+        ==> throughput: 74363.3 MFLOP/s
+
+GlobalHisto deltaT(ns): 10247520 ns for 20 ops 
+        ==> each op takes 512376 ns
+        ==> throughput: 78067.7 MFLOP/s
+
+SerialHisto deltaT(ns): 7698196705 ns for 20 ops 
+        ==> each op takes 384909835 ns
+        ==> throughput: 103.92 MFLOP/s
+---
+n=45000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 12118605 ns for 20 ops 
+        ==> each op takes 605930 ns
+        ==> throughput: 74266 MFLOP/s
+
+GlobalHisto deltaT(ns): 11615745 ns for 20 ops 
+        ==> each op takes 580787 ns
+        ==> throughput: 77481 MFLOP/s
+
+SerialHisto deltaT(ns): 9509477209 ns for 20 ops 
+        ==> each op takes 475473860 ns
+        ==> throughput: 94.6424 MFLOP/s
+---
+n=50000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 13113609 ns for 20 ops 
+        ==> each op takes 655680 ns
+        ==> throughput: 76256.7 MFLOP/s
+
+GlobalHisto deltaT(ns): 12705204 ns for 20 ops 
+        ==> each op takes 635260 ns
+        ==> throughput: 78707.9 MFLOP/s
+
+SerialHisto deltaT(ns): 9312533298 ns for 20 ops 
+        ==> each op takes 465626664 ns
+        ==> throughput: 107.382 MFLOP/s
+---
+n=55000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 14393461 ns for 20 ops 
+        ==> each op takes 719673 ns
+        ==> throughput: 76423.6 MFLOP/s
+
+GlobalHisto deltaT(ns): 14017639 ns for 20 ops 
+        ==> each op takes 700881 ns
+        ==> throughput: 78472.6 MFLOP/s
+
+SerialHisto deltaT(ns): 10233082605 ns for 20 ops 
+        ==> each op takes 511654130 ns
+        ==> throughput: 107.494 MFLOP/s
+---
+n=60000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 15814393 ns for 20 ops 
+        ==> each op takes 790719 ns
+        ==> throughput: 75880.2 MFLOP/s
+
+GlobalHisto deltaT(ns): 15322847 ns for 20 ops 
+        ==> each op takes 766142 ns
+        ==> throughput: 78314.4 MFLOP/s
+
+SerialHisto deltaT(ns): 11195933164 ns for 20 ops 
+        ==> each op takes 559796658 ns
+        ==> throughput: 107.182 MFLOP/s
+---
+n=65000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [5.86142e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 17708389 ns for 20 ops 
+        ==> each op takes 885419 ns
+        ==> throughput: 73411.5 MFLOP/s
+
+GlobalHisto deltaT(ns): 17144395 ns for 20 ops 
+        ==> each op takes 857219 ns
+        ==> throughput: 75826.5 MFLOP/s
+
+SerialHisto deltaT(ns): 12075837602 ns for 20 ops 
+        ==> each op takes 603791880 ns
+        ==> throughput: 107.653 MFLOP/s
+---
+n=70000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.28048e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 18800792 ns for 20 ops 
+        ==> each op takes 940039 ns
+        ==> throughput: 74464.9 MFLOP/s
+
+GlobalHisto deltaT(ns): 18303235 ns for 20 ops 
+        ==> each op takes 915161 ns
+        ==> throughput: 76489.2 MFLOP/s
+
+SerialHisto deltaT(ns): 14367804241 ns for 20 ops 
+        ==> each op takes 718390212 ns
+        ==> throughput: 97.4401 MFLOP/s
+---
+n=75000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.28048e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 19947355 ns for 20 ops 
+        ==> each op takes 997367 ns
+        ==> throughput: 75197.9 MFLOP/s
+
+GlobalHisto deltaT(ns): 19521096 ns for 20 ops 
+        ==> each op takes 976054 ns
+        ==> throughput: 76839.9 MFLOP/s
+
+SerialHisto deltaT(ns): 14105083552 ns for 20 ops 
+        ==> each op takes 705254177 ns
+        ==> throughput: 106.345 MFLOP/s
+---
+n=80000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.28048e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 21969542 ns for 20 ops 
+        ==> each op takes 1098477 ns
+        ==> throughput: 72828.1 MFLOP/s
+
+GlobalHisto deltaT(ns): 21410233 ns for 20 ops 
+        ==> each op takes 1070511 ns
+        ==> throughput: 74730.6 MFLOP/s
+
+SerialHisto deltaT(ns): 14522722205 ns for 20 ops 
+        ==> each op takes 726136110 ns
+        ==> throughput: 110.172 MFLOP/s
+---
+n=85000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [4.28048e+06, 2.16892e+11]
+> Largura da faixa: 1.05902e+08
+
+BlockHisto deltaT(ns): 22762942 ns for 20 ops 
+        ==> each op takes 1138147 ns
+        ==> throughput: 74682.8 MFLOP/s
+
+GlobalHisto deltaT(ns): 22334254 ns for 20 ops 
+        ==> each op takes 1116712 ns
+        ==> throughput: 76116.3 MFLOP/s
+
+SerialHisto deltaT(ns): 15467420689 ns for 20 ops 
+        ==> each op takes 773371034 ns
+        ==> throughput: 109.908 MFLOP/s
+---
+n=90000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.83232e+06, 2.16892e+11]
+> Largura da faixa: 1.05903e+08
+
+BlockHisto deltaT(ns): 24106271 ns for 20 ops 
+        ==> each op takes 1205313 ns
+        ==> throughput: 74669.4 MFLOP/s
+
+GlobalHisto deltaT(ns): 23774838 ns for 20 ops 
+        ==> each op takes 1188741 ns
+        ==> throughput: 75710.3 MFLOP/s
+
+SerialHisto deltaT(ns): 16583587946 ns for 20 ops 
+        ==> each op takes 829179397 ns
+        ==> throughput: 108.541 MFLOP/s
+---
+n=95000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.83232e+06, 2.16892e+11]
+> Largura da faixa: 1.05903e+08
+
+BlockHisto deltaT(ns): 26006367 ns for 20 ops 
+        ==> each op takes 1300318 ns
+        ==> throughput: 73059 MFLOP/s
+
+GlobalHisto deltaT(ns): 25436839 ns for 20 ops 
+        ==> each op takes 1271841 ns
+        ==> throughput: 74694.8 MFLOP/s
+
+SerialHisto deltaT(ns): 18558373237 ns for 20 ops 
+        ==> each op takes 927918661 ns
+        ==> throughput: 102.38 MFLOP/s
+---
+n=100000000 h=2048 nr=20
+> Intervalo dos valores de entrada: [2.67913e+06, 2.16894e+11]
+> Largura da faixa: 1.05904e+08
+
+BlockHisto deltaT(ns): 27031272 ns for 20 ops 
+        ==> each op takes 1351563 ns
+        ==> throughput: 73988.4 MFLOP/s
+
+GlobalHisto deltaT(ns): 26625340 ns for 20 ops 
+        ==> each op takes 1331267 ns
+        ==> throughput: 75116.4 MFLOP/s
+
+SerialHisto deltaT(ns): 18077433951 ns for 20 ops 
+        ==> each op takes 903871697 ns
+        ==> throughput: 110.635 MFLOP/s
+---

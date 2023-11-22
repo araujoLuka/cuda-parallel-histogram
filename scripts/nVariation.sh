@@ -1,19 +1,33 @@
 #!/bin/bash
 
-fileName="cudaHisto.log"
-endSize=100000000
+fileName="nVariation.data"
+fixedH=2048
+fixedNr=20
+
+nStart=10
+nEnd=100000000
 
 echo "Running massive executions..."
+
+echo "> fileName=$fileName"
+echo "> fixedH=$fixedH"
+echo "> fixedNr=$fixedNr"
+
+echo "> nStart=$nStart"
+echo "> nEnd=$nEnd"
+
+echo "---"
+
 cd ../
 mkdir -p results
 rm -f $fileName
 touch $fileName
 
-for (( n=10; n<=$endSize; ))
+for (( n=$nStart; n<=$nEnd; ))
 do
     echo "Running for $n"
-    echo "n=$n h=2048 nr=20" | tee -a "$fileName"
-    make nv-script ARGS_N=$n ARGS_NR=20 | tee -a $fileName
+    echo "n=$n h=$fixedH nr=$fixedNr" | tee -a "$fileName"
+    make nv-script ARGS_N=$n ARGS_H=$fixedH ARGS_NR=$fixedNr | tee -a $fileName
     echo "---" | tee -a $fileName
 
     if [ $n -lt 100 ]
@@ -70,4 +84,6 @@ do
     fi
 done
 
+# remove \r from file
+sed -i 's/\r//g' $fileName
 mv $fileName results/
